@@ -1,0 +1,7 @@
+*.kicad_sch-bak
+.history/
+ESP32-S3_WLED_UnderGlow_Hat-backups/
+\#auto_saved_files#
+_autosave*
+*.lck
+tmp/
