@@ -5,7 +5,7 @@
 	(uuid "67f7b1e1-e87f-421a-8424-bb26889ab157")
 	(paper "A4")
 	(title_block
-		(title "ESP32-S3_IOHat")
+		(title "ESP32-S3 WLED UnderGlow Hat")
 		(date "2026-01-03")
 		(rev "C")
 		(company "Rob Kean")
