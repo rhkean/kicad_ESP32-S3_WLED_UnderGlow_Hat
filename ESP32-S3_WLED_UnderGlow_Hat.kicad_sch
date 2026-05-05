@@ -2003,7 +2003,7 @@
 				(justify right)
 			)
 		)
-		(pin "FSPIHD" bidirectional
+		(pin "FSPI_{HD}" bidirectional
 			(at 109.22 91.44 90)
 			(uuid "0a18a82a-57e4-4112-a405-8ceb34f57335")
 			(effects
@@ -2013,7 +2013,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{FSPICS}" bidirectional
+		(pin "~{FSPI_{CS0}}" bidirectional
 			(at 111.76 91.44 90)
 			(uuid "5c0d7ab0-dd39-4c33-8ff8-f47b92ed4807")
 			(effects
@@ -2023,7 +2023,7 @@
 				(justify right)
 			)
 		)
-		(pin "MOSI" bidirectional
+		(pin "FSPI_{MOSI}" bidirectional
 			(at 114.3 91.44 90)
 			(uuid "dbf18bc6-3b12-457a-91d2-f4e02aac390b")
 			(effects
@@ -2033,7 +2033,7 @@
 				(justify right)
 			)
 		)
-		(pin "SCLK" bidirectional
+		(pin "FSPI_{CLK}" bidirectional
 			(at 116.84 91.44 90)
 			(uuid "601f358d-df75-46ff-ad6f-ea81cbd51a72")
 			(effects
@@ -2043,7 +2043,7 @@
 				(justify right)
 			)
 		)
-		(pin "MISO" bidirectional
+		(pin "FSPI_{MISO}" bidirectional
 			(at 119.38 91.44 90)
 			(uuid "afae03b0-88b2-4fe3-9b10-3fea533bb0d9")
 			(effects
@@ -2053,7 +2053,7 @@
 				(justify right)
 			)
 		)
-		(pin "FSPIWP" bidirectional
+		(pin "FSPI_{WP}" bidirectional
 			(at 121.92 91.44 90)
 			(uuid "aed5d6d8-dbd6-4c33-8d30-277e7286a8fc")
 			(effects
@@ -2103,7 +2103,7 @@
 				(justify right)
 			)
 		)
-		(pin "SD" bidirectional
+		(pin "I^{2}S_{SD}" bidirectional
 			(at 137.16 91.44 90)
 			(uuid "707521de-9381-451e-a163-446bcb808984")
 			(effects
@@ -2123,7 +2123,7 @@
 				(justify right)
 			)
 		)
-		(pin "MCLK" bidirectional
+		(pin "I^{2}S_{MCLK}" bidirectional
 			(at 142.24 91.44 90)
 			(uuid "d3400b0a-51dc-4037-b1cd-8b9c67573621")
 			(effects
@@ -2203,7 +2203,7 @@
 				(justify right)
 			)
 		)
-		(pin "SCK" bidirectional
+		(pin "I^{2}S_{SCK}" bidirectional
 			(at 165.1 91.44 90)
 			(uuid "11548f9d-70ef-416b-8e45-4aa41a962746")
 			(effects
@@ -2213,7 +2213,7 @@
 				(justify right)
 			)
 		)
-		(pin "WS" bidirectional
+		(pin "I^{2}S_{WS}" bidirectional
 			(at 167.64 91.44 90)
 			(uuid "a95811f5-0f7e-4eb4-9989-3b6699f18b37")
 			(effects

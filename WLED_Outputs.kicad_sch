@@ -5272,7 +5272,7 @@
 		)
 		(uuid "ff7d941f-66b5-4ce4-9207-0b299a658418")
 	)
-	(label "SDO_{HSS}"
+	(label "SDO"
 		(at 203.2 91.44 180)
 		(effects
 			(font
