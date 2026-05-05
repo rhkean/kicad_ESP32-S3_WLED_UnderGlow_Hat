@@ -5,18 +5,19 @@
 	(uuid "a0df6d19-b1d5-4373-a5d2-1ea7f9c22c8b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,8 +25,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,7 +35,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -51,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,13 +79,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -93,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -104,10 +105,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -124,8 +125,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -144,26 +145,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -171,7 +173,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -188,7 +190,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -197,7 +199,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -215,12 +217,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_Small_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -228,10 +230,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -248,8 +250,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -2483,12 +2485,6 @@
 		(uuid "8bf91ea5-7e2b-4cb8-a79c-41ab5730db97")
 	)
 	(junction
-		(at 214.63 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ec3815c-1fde-4052-a183-8442c6c06422")
-	)
-	(junction
 		(at 190.5 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2531,12 +2527,6 @@
 		(uuid "bd96c978-15f5-479c-b0ba-4fe8df59a9df")
 	)
 	(junction
-		(at 229.87 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c08ddd04-52f9-45e6-9c9e-2af794cf77b8")
-	)
-	(junction
 		(at 210.82 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2561,10 +2551,22 @@
 		(uuid "de0d6932-607f-4b4e-9034-a3e7b8283ff5")
 	)
 	(junction
+		(at 228.6 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec3fafe0-657a-4273-9732-f09a250e927d")
+	)
+	(junction
 		(at 190.5 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee28d07e-000f-4317-b398-70591d9bc9d3")
+	)
+	(junction
+		(at 218.44 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2542d6d-3810-4bbf-8e7a-4e893dd6332e")
 	)
 	(junction
 		(at 210.82 104.14)
@@ -2726,6 +2728,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 144.78) (xy 220.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecc0b29-ce6a-4aaf-8bf3-2d9bd6915608")
+	)
+	(wire
+		(pts
 			(xy 223.52 76.2) (xy 223.52 78.74)
 		)
 		(stroke
@@ -2783,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "14f3ed48-93c7-4df1-9388-236d5af579b3")
-	)
-	(wire
-		(pts
-			(xy 229.87 153.67) (xy 229.87 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "152ce490-e94f-40ab-b062-6433b6f0c88b")
 	)
 	(wire
 		(pts
@@ -2863,16 +2865,6 @@
 			(type default)
 		)
 		(uuid "1d1b67af-b9c7-4ca8-8017-ee0c58debc19")
-	)
-	(wire
-		(pts
-			(xy 229.87 144.78) (xy 234.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d806644-16be-42e6-b34b-9fb2229b2b42")
 	)
 	(wire
 		(pts
@@ -3046,7 +3038,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 134.62) (xy 214.63 135.89)
+			(xy 218.44 134.62) (xy 218.44 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3246,6 +3238,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 142.24) (xy 218.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b2dd48-edfd-4d9f-b57a-fade9fcd0372")
+	)
+	(wire
+		(pts
 			(xy 139.7 78.74) (xy 134.62 78.74)
 		)
 		(stroke
@@ -3333,16 +3335,6 @@
 			(type default)
 		)
 		(uuid "4d54abaf-c25d-4241-a5f0-2092f519912e")
-	)
-	(wire
-		(pts
-			(xy 214.63 144.78) (xy 214.63 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e328bac-8093-4761-ac93-7fc712229c16")
 	)
 	(wire
 		(pts
@@ -3606,23 +3598,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 144.78) (xy 214.63 144.78)
+			(xy 210.82 144.78) (xy 218.44 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a1ce818-2854-4e62-8cfc-fd00001e8f40")
-	)
-	(wire
-		(pts
-			(xy 214.63 144.78) (xy 218.44 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8a810a-3ea8-4ba9-87ca-5e7e6c1445dd")
 	)
 	(wire
 		(pts
@@ -3856,16 +3838,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 144.78) (xy 229.87 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92ddf904-9123-4c78-a988-35d13ac44398")
-	)
-	(wire
-		(pts
 			(xy 238.76 93.98) (xy 243.84 93.98)
 		)
 		(stroke
@@ -3873,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "966de886-a259-4728-95b0-24d3f611fdcb")
+	)
+	(wire
+		(pts
+			(xy 228.6 144.78) (xy 233.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973a9fa9-594c-4d53-9f0b-7aefe088eb0e")
 	)
 	(wire
 		(pts
@@ -3903,6 +3885,16 @@
 			(type default)
 		)
 		(uuid "9b549997-9ee0-4513-9a20-68fcd2249574")
+	)
+	(wire
+		(pts
+			(xy 228.6 152.4) (xy 228.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c08cd39-00d6-45c3-b97f-cc1574080583")
 	)
 	(wire
 		(pts
@@ -4346,6 +4338,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 144.78) (xy 228.6 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2991d1-2620-498a-a4bc-f5cd76fa4698")
+	)
+	(wire
+		(pts
 			(xy 50.8 127) (xy 58.42 127)
 		)
 		(stroke
@@ -4356,7 +4358,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 144.78) (xy 229.87 146.05)
+			(xy 228.6 144.78) (xy 228.6 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5115,7 +5117,7 @@
 		(uuid "9ca2208c-0ac8-40b5-a885-e15306600512")
 	)
 	(label "~{FLT_{BUS}}"
-		(at 204.47 144.78 0)
+		(at 210.82 144.78 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -5774,7 +5776,7 @@
 	)
 	(hierarchical_label "~{FLT_{GBL}}"
 		(shape output)
-		(at 234.95 144.78 0)
+		(at 233.68 144.78 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6128,8 +6130,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 222.25 144.78 270)
+		(lib_id "Device:R_Small")
+		(at 223.52 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6137,7 +6139,7 @@
 		(dnp no)
 		(uuid "4c7ebc37-7b21-482a-a006-f8393473591c")
 		(property "Reference" "R302"
-			(at 222.25 143.51 90)
+			(at 223.52 143.51 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6146,7 +6148,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 222.25 144.78 90)
+			(at 223.52 144.78 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6154,7 +6156,7 @@
 			)
 		)
 		(property "Footprint" "My Resistors:R_0201_Dense"
-			(at 222.25 143.002 90)
+			(at 223.52 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,8 +6164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 222.25 144.78 0)
+		(property "Datasheet" "~"
+			(at 223.52 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,8 +6173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
-			(at 222.25 144.78 0)
+		(property "Description" "Resistor, small symbol"
+			(at 223.52 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6183,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 222.25 144.78 90)
+			(at 223.52 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6192,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "AC0201FR-075K1L"
-			(at 222.25 144.78 90)
+			(at 223.52 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6201,7 @@
 			)
 		)
 		(property "LCSC" "C226588"
-			(at 222.25 144.78 90)
+			(at 223.52 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6210,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
-			(at 222.25 144.78 90)
+			(at 223.52 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6219,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
-			(at 222.25 144.78 90)
+			(at 223.52 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6519,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 154.94 0)
+		(at 228.6 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6526,7 +6528,7 @@
 		(fields_autoplaced yes)
 		(uuid "90a45e10-1fe4-45b2-959b-8d6338b7f08c")
 		(property "Reference" "#PWR01012"
-			(at 229.87 161.29 0)
+			(at 228.6 161.29 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6535,7 +6537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 160.02 0)
+			(at 228.6 160.02 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6544,7 +6546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 154.94 0)
+			(at 228.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 154.94 0)
+			(at 228.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +6564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 154.94 0)
+			(at 228.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,8 +6585,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 229.87 149.86 0)
+		(lib_id "Device:C_Small")
+		(at 228.6 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6592,7 +6594,7 @@
 		(dnp no)
 		(uuid "aa9088ed-6c60-4f99-8c3f-bbe77852867c")
 		(property "Reference" "C301"
-			(at 229.87 148.59 0)
+			(at 228.6 148.59 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6601,7 +6603,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 229.87 151.13 0)
+			(at 228.6 151.13 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6610,7 +6612,7 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 230.8352 153.67 0)
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,8 +6620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
-			(at 229.87 149.86 0)
+		(property "Datasheet" "~"
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,8 +6629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
-			(at 229.87 149.86 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6639,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 229.87 149.86 0)
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6648,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
-			(at 229.87 149.86 0)
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6657,7 @@
 			)
 		)
 		(property "LCSC" "C915760"
-			(at 229.87 149.86 0)
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6666,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
-			(at 229.87 149.86 0)
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6675,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
-			(at 229.87 149.86 0)
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,8 +6699,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 214.63 139.7 180)
+		(lib_id "Device:R_Small")
+		(at 218.44 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6706,7 +6708,7 @@
 		(dnp no)
 		(uuid "d93462a2-f407-4686-90ec-249adb74e19c")
 		(property "Reference" "R301"
-			(at 213.36 139.7 90)
+			(at 217.17 139.7 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6715,7 +6717,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 214.63 139.7 90)
+			(at 218.44 139.7 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6723,7 +6725,7 @@
 			)
 		)
 		(property "Footprint" "My Resistors:R_0201_Dense"
-			(at 216.408 139.7 90)
+			(at 218.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,8 +6733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 214.63 139.7 0)
+		(property "Datasheet" "~"
+			(at 218.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,8 +6742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
-			(at 214.63 139.7 0)
+		(property "Description" "Resistor, small symbol"
+			(at 218.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6752,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 214.63 139.7 90)
+			(at 218.44 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6761,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "AC0201FR-075K1L"
-			(at 214.63 139.7 90)
+			(at 218.44 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6770,7 @@
 			)
 		)
 		(property "LCSC" "C226588"
-			(at 214.63 139.7 90)
+			(at 218.44 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6779,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
-			(at 214.63 139.7 90)
+			(at 218.44 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6788,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
-			(at 214.63 139.7 90)
+			(at 218.44 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +7021,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 214.63 134.62 0)
+		(at 218.44 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7027,7 +7029,7 @@
 		(dnp no)
 		(uuid "f5149158-6896-41d4-a8c0-55f8b9b2b9e0")
 		(property "Reference" "#PWR01011"
-			(at 214.63 138.43 0)
+			(at 218.44 138.43 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -7036,7 +7038,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 214.63 130.81 0)
+			(at 218.44 130.81 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -7044,7 +7046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 134.62 0)
+			(at 218.44 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 134.62 0)
+			(at 218.44 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 214.63 134.62 0)
+			(at 218.44 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7290,7 @@
 				(justify left)
 			)
 		)
-		(pin "SDO" output
+		(pin "MISO" output
 			(at 58.42 45.72 180)
 			(uuid "efca7a92-f70b-4870-9921-bf41f8521b6c")
 			(effects

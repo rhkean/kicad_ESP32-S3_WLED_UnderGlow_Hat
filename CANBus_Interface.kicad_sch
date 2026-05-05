@@ -251,18 +251,19 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -270,8 +271,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -280,7 +281,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -297,7 +298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -306,7 +307,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -324,13 +325,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -339,10 +340,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -350,10 +351,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -370,8 +371,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -390,26 +391,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -417,7 +419,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -434,7 +436,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -443,7 +445,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -461,12 +463,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_Small_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -474,10 +476,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -494,8 +496,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -2321,7 +2323,7 @@
 	)
 	(text "* Using the ~{OE} pin as the input of a 74LV1T125\n  here, instead of a 74LV1T04, creates a more\n  efficient inverter since the output is Hi-Z during\n  normal operations, and is only active during\n  RESET. Also, avoids an additional\n  line item on BOM."
 		(exclude_from_sim no)
-		(at 120.65 147.32 0)
+		(at 123.19 149.86 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2329,12 +2331,6 @@
 			(justify left top)
 		)
 		(uuid "9c297ad3-bf01-47d5-9c66-abe9c36cf7ca")
-	)
-	(junction
-		(at 106.68 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03358464-fc22-464b-a1e0-96893c3040a1")
 	)
 	(junction
 		(at 38.1 99.06)
@@ -2367,7 +2363,13 @@
 		(uuid "267ada62-5ca5-48a3-9485-31649dd2a0c0")
 	)
 	(junction
-		(at 106.68 139.7)
+		(at 109.22 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28124524-f032-45fc-9dc3-1d7c82d2547b")
+	)
+	(junction
+		(at 109.22 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bed3429-6c8d-4c13-9944-66e75a08e9d0")
@@ -2397,13 +2399,19 @@
 		(uuid "443ee44a-633c-463b-9a36-c92c88617c9a")
 	)
 	(junction
+		(at 104.14 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44e78936-6c60-456b-bcfe-ec32ff98fd9d")
+	)
+	(junction
 		(at 147.32 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4737d3d1-becd-434c-a4ec-899dcdb8d9c5")
 	)
 	(junction
-		(at 116.84 144.78)
+		(at 119.38 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57a4f6cd-1d16-452c-845b-3a56e4dd79eb")
@@ -2443,6 +2451,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77bcb90c-f0c8-4c35-aa7f-72dd9ebd75d2")
+	)
+	(junction
+		(at 109.22 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa89457-d28b-406c-bf0d-c335ffe49091")
 	)
 	(junction
 		(at 175.26 121.92)
@@ -2562,7 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 157.48) (xy 106.68 160.02)
+			(xy 109.22 157.48) (xy 109.22 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2572,23 +2586,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 60.96) (xy 180.34 62.23)
+			(xy 180.34 60.96) (xy 180.34 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0473184e-604c-49f6-8e15-70cfe5a6a31d")
-	)
-	(wire
-		(pts
-			(xy 195.58 69.85) (xy 195.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06bd44c3-e770-4017-b2ef-2dd54e282224")
 	)
 	(wire
 		(pts
@@ -2622,6 +2626,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 68.58) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1523f1eb-82b8-4aeb-b660-83c5d223c5c6")
+	)
+	(wire
+		(pts
 			(xy 38.1 106.68) (xy 38.1 109.22)
 		)
 		(stroke
@@ -2629,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "173b5caf-f7d4-4553-9f6e-eaea6ecb881b")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1758160a-471f-4e5c-92b2-5a50e1384d9b")
 	)
 	(wire
 		(pts
@@ -2642,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 167.64 62.23)
+			(xy 167.64 60.96) (xy 167.64 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2662,13 +2686,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 69.85) (xy 114.3 93.98)
+			(xy 99.06 142.24) (xy 104.14 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c8918b8-03d8-47d7-8954-0fdd9511ef23")
+		(uuid "1ce7965a-71c1-4e99-974b-9553c730f23b")
 	)
 	(wire
 		(pts
@@ -2692,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 144.78) (xy 116.84 144.78)
+			(xy 116.84 147.32) (xy 119.38 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2712,16 +2736,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 153.67) (xy 116.84 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20cb7454-6746-4606-b64f-433e052f0a7b")
-	)
-	(wire
-		(pts
 			(xy 124.46 119.38) (xy 121.92 119.38)
 		)
 		(stroke
@@ -2732,7 +2746,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 152.4) (xy 93.98 152.4)
+			(xy 111.76 154.94) (xy 93.98 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2752,13 +2766,33 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 69.85) (xy 175.26 71.12)
+			(xy 99.06 144.78) (xy 99.06 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25b1e417-35e4-443e-90c1-0294de9e0c6f")
+		(uuid "2620bfc7-7b56-4050-8689-31ee68dff474")
+	)
+	(wire
+		(pts
+			(xy 119.38 154.94) (xy 119.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2661e3fb-4ad8-4d89-ac76-fecffd842a74")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266a052f-1f7e-4552-9c10-61357129917a")
 	)
 	(wire
 		(pts
@@ -2772,16 +2806,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 144.78) (xy 116.84 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28c80444-8ad5-4719-bee7-88068c13e500")
-	)
-	(wire
-		(pts
 			(xy 185.42 83.82) (xy 185.42 91.44)
 		)
 		(stroke
@@ -2792,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 69.85) (xy 190.5 71.12)
+			(xy 190.5 60.96) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2842,6 +2866,36 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f392a3b-302a-4a57-b5f1-f265951f43a3")
+	)
+	(wire
+		(pts
+			(xy 99.06 152.4) (xy 109.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c086c6-8767-48df-9036-2d85e7699788")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e2ff2e-23ee-4240-bf40-331d2c136c8f")
+	)
+	(wire
+		(pts
 			(xy 38.1 96.52) (xy 38.1 99.06)
 		)
 		(stroke
@@ -2869,26 +2923,6 @@
 			(type default)
 		)
 		(uuid "3a4a8249-d7ba-4e09-87d4-58e630245aab")
-	)
-	(wire
-		(pts
-			(xy 160.02 120.65) (xy 160.02 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b16566a-e8dc-4d7c-8f2c-629ad780a306")
-	)
-	(wire
-		(pts
-			(xy 167.64 69.85) (xy 167.64 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40284654-02a5-44ae-b94a-5f275a0f2498")
 	)
 	(wire
 		(pts
@@ -2932,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 129.54 60.96)
+			(xy 129.54 60.96) (xy 129.54 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 62.23)
+			(xy 114.3 55.88) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2962,16 +2996,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 165.1 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4cdc38-ff42-455c-9abb-397496ecdda6")
-	)
-	(wire
-		(pts
 			(xy 147.32 116.84) (xy 147.32 119.38)
 		)
 		(stroke
@@ -2982,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.76) (xy 160.02 113.03)
+			(xy 160.02 111.76) (xy 160.02 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2992,13 +3016,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 60.96) (xy 190.5 62.23)
+			(xy 195.58 68.58) (xy 195.58 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5714569c-df9f-4907-af51-4e26223396a8")
+		(uuid "55b385d8-e18c-44ab-89d1-5f135791c56e")
 	)
 	(wire
 		(pts
@@ -3022,23 +3046,33 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 170.18 113.03)
+			(xy 175.26 68.58) (xy 175.26 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f2c8961-979d-496d-900c-8a5461171d6b")
+		(uuid "5f2736c2-141c-4c56-8f96-0fd98d15afac")
 	)
 	(wire
 		(pts
-			(xy 106.68 137.16) (xy 106.68 139.7)
+			(xy 109.22 139.7) (xy 109.22 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "601f14d2-22ad-4629-9b0f-f032040d0a06")
+	)
+	(wire
+		(pts
+			(xy 119.38 147.32) (xy 119.38 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614674ee-6678-4ab7-ab76-c31d358d3dd1")
 	)
 	(wire
 		(pts
@@ -3062,7 +3096,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 93.98 152.4)
+			(xy 165.1 111.76) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66539dd0-bd46-4c16-b617-7d32c4e235d5")
+	)
+	(wire
+		(pts
+			(xy 93.98 99.06) (xy 93.98 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3072,17 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 60.96) (xy 175.26 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c2137a-d19e-4f89-9723-7888851dc50d")
-	)
-	(wire
-		(pts
-			(xy 162.56 69.85) (xy 162.56 71.12)
+			(xy 162.56 60.96) (xy 162.56 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3112,23 +3146,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 144.78) (xy 104.14 144.78)
+			(xy 104.14 147.32) (xy 106.68 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f5ffa5d-cfca-4978-b333-de088b84a5ce")
-	)
-	(wire
-		(pts
-			(xy 99.06 123.19) (xy 99.06 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ed44a6-7e91-4140-80f6-49c95b8a89fe")
 	)
 	(wire
 		(pts
@@ -3142,17 +3166,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 60.96) (xy 134.62 62.23)
+			(xy 170.18 119.38) (xy 170.18 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7677713a-2d34-4360-974f-dcd00719e433")
+		(uuid "724774ab-6bbe-4cab-b1b4-1ef87eb56709")
 	)
 	(wire
 		(pts
-			(xy 106.68 139.7) (xy 106.68 142.24)
+			(xy 109.22 142.24) (xy 109.22 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3212,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 120.65) (xy 175.26 121.92)
+			(xy 175.26 111.76) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3242,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 69.85) (xy 134.62 71.12)
+			(xy 134.62 60.96) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3282,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 109.22) (xy 99.06 115.57)
+			(xy 99.06 109.22) (xy 99.06 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3292,7 +3316,37 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 149.86) (xy 109.22 152.4)
+			(xy 114.3 68.58) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a06541-e7e1-4d91-8fe8-19af52e686f2")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99068b1e-29a1-47f9-813d-ca338098b581")
+	)
+	(wire
+		(pts
+			(xy 185.42 68.58) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a932df8-ef4a-4eb5-8a4e-5fae261dab0c")
+	)
+	(wire
+		(pts
+			(xy 111.76 152.4) (xy 111.76 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3302,17 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 111.76) (xy 175.26 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f76c36a-0d18-4e13-b217-92ece984f6b5")
-	)
-	(wire
-		(pts
-			(xy 93.98 99.06) (xy 125.73 99.06)
+			(xy 93.98 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3329,6 +3373,26 @@
 			(type default)
 		)
 		(uuid "a40d7d22-9cfe-41c0-9cd5-f8d0070e5bc3")
+	)
+	(wire
+		(pts
+			(xy 160.02 119.38) (xy 160.02 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f487c6-acf4-46c2-b531-b9ba9dac0745")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a73840-d709-456e-94dc-9097de3060fe")
 	)
 	(wire
 		(pts
@@ -3352,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 60.96) (xy 195.58 62.23)
+			(xy 195.58 60.96) (xy 195.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3369,6 +3433,16 @@
 			(type default)
 		)
 		(uuid "ae3e89e4-1ab8-41f8-9b31-0c4b6c26d9e7")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af133bc7-4ecf-4dd4-beb8-aab35b626466")
 	)
 	(wire
 		(pts
@@ -3412,13 +3486,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 83.82) (xy 137.16 83.82)
+			(xy 132.08 99.06) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4b137e0-a5e0-4925-a142-65070048a67e")
+		(uuid "b500534a-c0d4-4952-9fb5-009f3fdadca1")
 	)
 	(wire
 		(pts
@@ -3442,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 125.73 83.82)
+			(xy 91.44 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3462,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 139.7) (xy 106.68 139.7)
+			(xy 104.14 142.24) (xy 109.22 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3492,23 +3566,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 144.78) (xy 101.6 139.7)
+			(xy 104.14 147.32) (xy 104.14 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1f11d8f-f8f8-43b6-a517-4d8b2b733073")
-	)
-	(wire
-		(pts
-			(xy 133.35 99.06) (xy 137.16 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f157a5-8259-4e0b-9935-9872a9ee80cd")
 	)
 	(wire
 		(pts
@@ -3542,16 +3606,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 165.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ecf8e6-c0a2-49dd-bbcd-9c8ee33f1cca")
-	)
-	(wire
-		(pts
 			(xy 157.48 71.12) (xy 162.56 71.12)
 		)
 		(stroke
@@ -3572,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 69.85) (xy 157.48 71.12)
+			(xy 157.48 60.96) (xy 157.48 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3582,53 +3636,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 69.85) (xy 185.42 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce38b171-6ad2-4357-8bea-cf7ba4895893")
-	)
-	(wire
-		(pts
-			(xy 157.48 60.96) (xy 157.48 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6882d0-3966-494c-8e85-7dfda547eb84")
-	)
-	(wire
-		(pts
-			(xy 129.54 69.85) (xy 129.54 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1224d53-ae23-452d-a244-5da7ba76a201")
-	)
-	(wire
-		(pts
-			(xy 162.56 60.96) (xy 162.56 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2af64d5-77f1-4886-a7a3-3e61108afe92")
-	)
-	(wire
-		(pts
-			(xy 129.54 111.76) (xy 129.54 144.78)
+			(xy 129.54 111.76) (xy 129.54 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2bab0c7-2bf6-44e2-aa95-785e13d7f6f7")
+	)
+	(wire
+		(pts
+			(xy 99.06 149.86) (xy 99.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d705996a-0fee-4bd6-9106-ea3ba78479c6")
 	)
 	(wire
 		(pts
@@ -3682,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 147.32) (xy 106.68 157.48)
+			(xy 109.22 149.86) (xy 109.22 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3699,6 +3723,16 @@
 			(type default)
 		)
 		(uuid "e2eed230-6eee-41c2-bc1c-8aba7595da22")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a78e32-3d1f-4591-96f7-235896d8aa45")
 	)
 	(wire
 		(pts
@@ -3722,17 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 69.85) (xy 180.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ee07b5-552c-40e9-86d1-93f8c6ce8db0")
-	)
-	(wire
-		(pts
-			(xy 170.18 120.65) (xy 170.18 121.92)
+			(xy 170.18 111.76) (xy 170.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3782,13 +3806,33 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 60.96) (xy 185.42 62.23)
+			(xy 185.42 60.96) (xy 185.42 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f32a4a90-0960-40a7-879b-5b174dffe8b0")
+	)
+	(wire
+		(pts
+			(xy 167.64 68.58) (xy 167.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3dd73bf-5bd9-4752-9941-19cb6fe81811")
+	)
+	(wire
+		(pts
+			(xy 109.22 152.4) (xy 109.22 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43f4be6-05f0-4cc8-854c-0cfc2b741931")
 	)
 	(wire
 		(pts
@@ -3822,6 +3866,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 60.96) (xy 175.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa15fdc0-92ec-4557-9382-bcc724192387")
+	)
+	(wire
+		(pts
 			(xy 38.1 99.06) (xy 38.1 101.6)
 		)
 		(stroke
@@ -3842,6 +3896,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 121.92) (xy 99.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc933fd-e50d-4f61-a0ad-178ecaa01d63")
+	)
+	(wire
+		(pts
 			(xy 134.62 106.68) (xy 134.62 119.38)
 		)
 		(stroke
@@ -3852,7 +3916,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 144.78) (xy 129.54 144.78)
+			(xy 119.38 147.32) (xy 129.54 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3872,7 +3936,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 157.48) (xy 116.84 157.48)
+			(xy 109.22 157.48) (xy 119.38 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3910,7 +3974,7 @@
 		)
 		(uuid "95e8de82-cd15-4c27-87d4-ecf778875c3d")
 	)
-	(label "SDO_{raw}"
+	(label "SDO_{CAN}"
 		(at 133.35 83.82 0)
 		(effects
 			(font
@@ -4059,7 +4123,7 @@
 		)
 		(uuid "e5247f64-3f3b-4a67-b23f-2cff8bc2f6af")
 	)
-	(hierarchical_label "SDO"
+	(hierarchical_label "MISO"
 		(shape output)
 		(at 91.44 83.82 180)
 		(effects
@@ -4071,7 +4135,7 @@
 		(uuid "ff20beeb-0149-45e4-9d99-8d760c6a9fdd")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 175.26 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4098,15 +4162,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 176.2252 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -4115,7 +4170,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+		(property "Datasheet" "~"
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -4186,7 +4250,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 160.02 0)
+		(at 109.22 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4195,7 +4259,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cb6fc83-3ce1-46d1-bb7b-f3619fd55acf")
 		(property "Reference" "#PWR0719"
-			(at 106.68 166.37 0)
+			(at 109.22 166.37 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -4204,7 +4268,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 165.1 0)
+			(at 109.22 165.1 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -4213,7 +4277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 160.02 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 160.02 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 160.02 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +4862,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 106.68 137.16 0)
+		(at 109.22 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4806,7 +4870,7 @@
 		(dnp no)
 		(uuid "2d9e7a77-dd78-440a-8a0c-9082f549e1c9")
 		(property "Reference" "#PWR0716"
-			(at 106.68 140.97 0)
+			(at 109.22 143.51 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -4815,7 +4879,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 106.68 133.35 0)
+			(at 109.22 135.89 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -4823,7 +4887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 137.16 0)
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 137.16 0)
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.68 137.16 0)
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 160.02 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4889,15 +4953,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 160.9852 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 160.02 116.84 0)
 			(effects
 				(font
@@ -4906,7 +4961,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+		(property "Datasheet" "~"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 160.02 116.84 0)
 			(effects
 				(font
@@ -4976,7 +5040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 129.54 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5003,15 +5067,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0603_Dense"
-			(at 130.5052 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C61E226ME01-01A.pdf"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -5020,7 +5075,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 25V X5S ±20% 0603 MLCC SMD"
+		(property "Datasheet" "~"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -5473,7 +5537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 129.54 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5499,15 +5563,6 @@
 			)
 		)
 		(property "Footprint" "My Resistors:R_0201_Dense"
-			(at 129.54 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 129.54 99.06 0)
 			(effects
 				(font
@@ -5516,7 +5571,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 470R OHM 1% 1/20W 0201"
+		(property "Datasheet" "~"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 129.54 99.06 0)
 			(effects
 				(font
@@ -5587,7 +5651,7 @@
 	)
 	(symbol
 		(lib_id "74xxx1Gyy:74LVC1G125")
-		(at 109.22 144.78 0)
+		(at 111.76 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5595,7 +5659,7 @@
 		(dnp no)
 		(uuid "4599713a-f1c5-44cf-b4c1-2b4238ba6eae")
 		(property "Reference" "U702"
-			(at 110.49 140.97 0)
+			(at 113.03 143.51 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -5604,7 +5668,7 @@
 			)
 		)
 		(property "Value" "74LV1T125"
-			(at 110.49 142.24 0)
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -5613,7 +5677,7 @@
 			)
 		)
 		(property "Footprint" "Personal_FootprintLibrary:X2SON5_SOT1226_0.8x0.8mm"
-			(at 109.22 144.78 0)
+			(at 111.76 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5686,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LV1T125.pdf"
-			(at 113.03 151.13 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5695,7 @@
 			)
 		)
 		(property "Description" "Buffer, 3-State"
-			(at 116.84 157.48 0)
+			(at 119.38 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5704,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 109.22 144.78 0)
+			(at 111.76 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5713,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "74LV1T125GXH"
-			(at 109.22 144.78 0)
+			(at 111.76 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5722,7 @@
 			)
 		)
 		(property "LCSC" "C547939"
-			(at 109.22 144.78 0)
+			(at 111.76 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5731,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/74LV1T125GXH/8276616"
-			(at 109.22 144.78 0)
+			(at 111.76 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5740,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Nexperia/74LV1T125GXH?qs=W0yvOO0ixfGB1ESM2KEKxQ%3D%3D"
-			(at 109.22 144.78 0)
+			(at 111.76 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 129.54 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5735,15 +5799,6 @@
 			)
 		)
 		(property "Footprint" "My Resistors:R_0201_Dense"
-			(at 129.54 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 129.54 83.82 0)
 			(effects
 				(font
@@ -5752,7 +5807,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 33 OHM 1% 1/20W 0201 AEC-Q200"
+		(property "Datasheet" "~"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 129.54 83.82 0)
 			(effects
 				(font
@@ -5887,7 +5951,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 165.1 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5914,15 +5978,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 166.0652 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 165.1 116.84 0)
 			(effects
 				(font
@@ -5931,7 +5986,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+		(property "Datasheet" "~"
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 165.1 116.84 0)
 			(effects
 				(font
@@ -6066,7 +6130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 190.5 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6093,15 +6157,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0603_Dense"
-			(at 191.4652 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C61E226ME01-01A.pdf"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -6110,7 +6165,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 25V X5S ±20% 0603 MLCC SMD"
+		(property "Datasheet" "~"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -6295,7 +6359,121 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
+		(at 99.06 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8942fc7c-f072-4d2b-83bf-e9771d6f79f2")
+		(property "Reference" "C717"
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "My Capacitors:C_0201_Dense"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C915760"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7bf8e09-8dd1-4cef-b399-74d270f7b970")
+		)
+		(pin "1"
+			(uuid "3cf6b99e-e385-4a54-aed4-e04358ae7e19")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C717")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 195.58 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6322,15 +6500,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0603_Dense"
-			(at 196.5452 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C61E226ME01-01A.pdf"
 			(at 195.58 66.04 0)
 			(effects
 				(font
@@ -6339,7 +6508,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 25V X5S ±20% 0603 MLCC SMD"
+		(property "Datasheet" "~"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 195.58 66.04 0)
 			(effects
 				(font
@@ -6409,7 +6587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 157.48 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6436,15 +6614,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 158.4452 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -6453,7 +6622,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+		(property "Datasheet" "~"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -6523,7 +6701,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 99.06 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6550,15 +6728,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 100.0252 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 99.06 119.38 0)
 			(effects
 				(font
@@ -6567,7 +6736,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+		(property "Datasheet" "~"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 99.06 119.38 0)
 			(effects
 				(font
@@ -6834,7 +7012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 134.62 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6861,15 +7039,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 135.5852 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -6878,7 +7047,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+		(property "Datasheet" "~"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -7015,7 +7193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 170.18 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7042,15 +7220,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 171.1452 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 170.18 116.84 0)
 			(effects
 				(font
@@ -7059,7 +7228,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+		(property "Datasheet" "~"
+			(at 170.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 170.18 116.84 0)
 			(effects
 				(font
@@ -7129,8 +7307,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 116.84 149.86 180)
+		(lib_id "Device:R_Small")
+		(at 119.38 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7138,7 +7316,7 @@
 		(dnp no)
 		(uuid "bc95ac62-d34f-460b-8027-15452db93c4d")
 		(property "Reference" "R704"
-			(at 115.57 149.86 90)
+			(at 118.11 152.4 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -7147,7 +7325,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 116.84 149.86 90)
+			(at 119.38 152.4 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -7155,7 +7333,7 @@
 			)
 		)
 		(property "Footprint" "My Resistors:R_0201_Dense"
-			(at 118.618 149.86 90)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,8 +7341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 116.84 149.86 0)
+		(property "Datasheet" "~"
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,8 +7350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
-			(at 116.84 149.86 0)
+		(property "Description" "Resistor, small symbol"
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7182,7 +7360,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 116.84 149.86 90)
+			(at 119.38 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7369,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "AC0201FR-075K1L"
-			(at 116.84 149.86 90)
+			(at 119.38 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +7378,7 @@
 			)
 		)
 		(property "LCSC" "C226588"
-			(at 116.84 149.86 90)
+			(at 119.38 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +7387,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
-			(at 116.84 149.86 90)
+			(at 119.38 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,7 +7396,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
-			(at 116.84 149.86 90)
+			(at 119.38 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +7485,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 162.56 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7334,15 +7512,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0603_Dense"
-			(at 163.5252 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C61E226ME01-01A.pdf"
 			(at 162.56 66.04 0)
 			(effects
 				(font
@@ -7351,7 +7520,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 25V X5S ±20% 0603 MLCC SMD"
+		(property "Datasheet" "~"
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 162.56 66.04 0)
 			(effects
 				(font
@@ -7488,7 +7666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 114.3 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7514,15 +7692,6 @@
 			)
 		)
 		(property "Footprint" "My Resistors:R_0201_Dense"
-			(at 116.078 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 114.3 66.04 0)
 			(effects
 				(font
@@ -7531,7 +7700,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+		(property "Datasheet" "~"
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 114.3 66.04 0)
 			(effects
 				(font
@@ -7666,7 +7844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 167.64 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7693,15 +7871,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0603_Dense"
-			(at 168.6052 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C61E226ME01-01A.pdf"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -7710,7 +7879,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 25V X5S ±20% 0603 MLCC SMD"
+		(property "Datasheet" "~"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -7914,7 +8092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 185.42 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7941,15 +8119,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0603_Dense"
-			(at 186.3852 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C61E226ME01-01A.pdf"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -7958,7 +8127,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 25V X5S ±20% 0603 MLCC SMD"
+		(property "Datasheet" "~"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -8148,7 +8326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 175.26 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8175,15 +8353,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 176.2252 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -8192,7 +8361,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+		(property "Datasheet" "~"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -8329,7 +8507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 180.34 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8356,15 +8534,6 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0603_Dense"
-			(at 181.3052 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C61E226ME01-01A.pdf"
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -8373,7 +8542,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 25V X5S ±20% 0603 MLCC SMD"
+		(property "Datasheet" "~"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 180.34 66.04 0)
 			(effects
 				(font
