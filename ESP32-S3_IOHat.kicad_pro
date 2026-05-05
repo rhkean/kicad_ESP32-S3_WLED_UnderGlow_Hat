@@ -269,7 +269,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "C"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -544,7 +544,7 @@
     ]
   },
   "meta": {
-    "filename": "ESP32-S3_WLED_UnderGlow_Hat.kicad_pro",
+    "filename": "ESP32-S3_IOHat.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -563,6 +563,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
+        "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -573,14 +574,16 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgb(0, 194, 194)",
-        "track_width": 0.15
+        "track_width": 0.15,
+        "tuning_profile": ""
       },
       {
         "clearance": 0.25,
         "name": "GND1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       },
       {
         "clearance": 0.125,
@@ -589,7 +592,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 255)",
-        "track_width": 0.1326
+        "track_width": 0.1326,
+        "tuning_profile": ""
       },
       {
         "clearance": 0.3885,
@@ -600,11 +604,12 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgb(0, 255, 0)",
-        "track_width": 0.1118
+        "track_width": 0.1118,
+        "tuning_profile": ""
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -846,9 +851,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ESP32-S3_WLED_UnderGlow_Hat.kicad_sch",
-        "name": "ESP32-S3_WLED_UnderGlow_Hat",
-        "uuid": "67f7b1e1-e87f-421a-8424-bb26889ab157"
+        "filename": "ESP32-S3_IOHat.kicad_sch",
+        "name": "ESP32-S3_IOHat",
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
     "used_designators": "",
