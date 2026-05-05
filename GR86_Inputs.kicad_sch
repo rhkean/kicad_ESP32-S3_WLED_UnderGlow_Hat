@@ -1217,7 +1217,7 @@
 							)
 						)
 					)
-					(number "EP"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13285,7 +13285,7 @@
 		(pin "5"
 			(uuid "f93e458a-5741-4ae5-880c-16cea67129b9")
 		)
-		(pin "EP"
+		(pin "17"
 			(uuid "cec4ca8a-dc41-4c43-a41d-3e5fdb72e189")
 		)
 		(pin "16"
