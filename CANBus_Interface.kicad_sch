@@ -3186,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 134.62 106.68)
+			(xy 137.16 106.68) (xy 132.08 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 119.38) (xy 147.32 119.38)
+			(xy 132.08 119.38) (xy 147.32 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3906,7 +3906,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 134.62 119.38)
+			(xy 132.08 106.68) (xy 132.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3944,6 +3944,16 @@
 		)
 		(uuid "ff675c78-1d2e-4723-a135-b8faa1a45b86")
 	)
+	(label "FLTR"
+		(at 157.48 111.76 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "1edaac84-9794-4211-845f-91fb528401f4")
+	)
 	(label "CAN_P"
 		(at 172.72 83.82 0)
 		(effects
@@ -3953,6 +3963,16 @@
 			(justify left bottom)
 		)
 		(uuid "47afe6f1-b616-4852-8d62-df667b320566")
+	)
+	(label "RST"
+		(at 137.16 111.76 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "81d1536b-19ca-40ec-807b-03571579d612")
 	)
 	(label "CAN_F_N"
 		(at 157.48 88.9 0)
@@ -3974,13 +3994,13 @@
 		)
 		(uuid "95e8de82-cd15-4c27-87d4-ecf778875c3d")
 	)
-	(label "SDO_{CAN}"
-		(at 133.35 83.82 0)
+	(label "SDO"
+		(at 137.16 83.82 180)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "98537a1f-c50c-4cb1-8e7e-e19cccd1c16f")
 	)
@@ -4023,6 +4043,16 @@
 			(justify left bottom)
 		)
 		(uuid "d11628cd-38aa-4a56-b4d3-716f658acdcd")
+	)
+	(label "OSC1"
+		(at 137.16 104.14 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "e92abd31-fbbc-47d0-a788-d3aa28ebf8ec")
 	)
 	(hierarchical_label "SDI"
 		(shape input)

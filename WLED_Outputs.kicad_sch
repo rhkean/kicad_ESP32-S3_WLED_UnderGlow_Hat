@@ -2389,12 +2389,6 @@
 		(uuid "4c889a7a-c401-4c3c-8feb-4d12dcecb133")
 	)
 	(junction
-		(at 243.84 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f1edc6e-d267-43f6-9b5a-9d38b037b7c6")
-	)
-	(junction
 		(at 58.42 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2411,6 +2405,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58dd32d5-d998-42f5-9e4e-63ac91252fa4")
+	)
+	(junction
+		(at 248.92 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59708007-64f8-4696-a0ba-2ecca85229a9")
 	)
 	(junction
 		(at 71.12 137.16)
@@ -2461,7 +2461,7 @@
 		(uuid "6cee3230-bab6-45aa-8fa2-2e5092622329")
 	)
 	(junction
-		(at 243.84 101.6)
+		(at 248.92 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f204ad4-821a-468f-bb86-71d36a403c97")
@@ -2527,6 +2527,12 @@
 		(uuid "82bdb4c9-cac6-438d-9662-abb41fc875b5")
 	)
 	(junction
+		(at 241.3 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853c62c7-4fa1-4088-b9d0-f0a2efc7a349")
+	)
+	(junction
 		(at 203.2 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2587,7 +2593,7 @@
 		(uuid "a760eb5b-f764-406b-a966-9559052006c3")
 	)
 	(junction
-		(at 251.46 91.44)
+		(at 256.54 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c6ce6c-88d2-42ea-90c5-3c403e43333f")
@@ -2621,12 +2627,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b384d6de-638f-4eb9-88c3-2b4f19f5e5df")
-	)
-	(junction
-		(at 256.54 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0ebd89a-c529-4ef2-af78-e6c4aed1cc00")
 	)
 	(junction
 		(at 116.84 119.38)
@@ -2725,12 +2725,6 @@
 		(uuid "f4c03581-cfc8-44cd-8b61-3cac8bc00de2")
 	)
 	(junction
-		(at 243.84 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f52d0285-b9e4-476e-8fb2-e0a99079b5b6")
-	)
-	(junction
 		(at 187.96 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2741,6 +2735,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdfe75aa-f7ad-4e1e-b06b-0627e9f3a44a")
+	)
+	(junction
+		(at 241.3 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff4f9c79-793f-4f02-aa68-8f9e340f6fee")
 	)
 	(wire
 		(pts
@@ -2864,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 91.44) (xy 256.54 93.98)
+			(xy 241.3 91.44) (xy 241.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 99.06) (xy 256.54 111.76)
+			(xy 241.3 99.06) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3081,26 +3081,6 @@
 			(type default)
 		)
 		(uuid "2ce7a527-7fb8-4736-b0af-cab4760e5e4e")
-	)
-	(wire
-		(pts
-			(xy 259.08 91.44) (xy 261.62 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cfff4cb-8e9f-4281-99eb-cbb78640c461")
-	)
-	(wire
-		(pts
-			(xy 256.54 111.76) (xy 243.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2da6eec3-2d1e-4d1b-b192-377cc6ae862e")
 	)
 	(wire
 		(pts
@@ -3254,7 +3234,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 111.76) (xy 236.22 114.3)
+			(xy 256.54 111.76) (xy 256.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3314,7 +3294,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 96.52) (xy 243.84 101.6)
+			(xy 248.92 96.52) (xy 248.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3364,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 91.44) (xy 251.46 91.44)
+			(xy 254 91.44) (xy 256.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3454,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 91.44) (xy 243.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46851577-ba2e-45da-8b15-27371e1dcd71")
+	)
+	(wire
+		(pts
 			(xy 45.72 48.26) (xy 50.8 48.26)
 		)
 		(stroke
@@ -3514,16 +3504,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 111.76) (xy 243.84 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50fc03c2-378a-4376-88c0-ba4f9375f7e2")
-	)
-	(wire
-		(pts
 			(xy 71.12 96.52) (xy 71.12 99.06)
 		)
 		(stroke
@@ -3571,6 +3551,16 @@
 			(type default)
 		)
 		(uuid "5485e520-1e5e-4fb8-be9a-47ee9eb1303c")
+	)
+	(wire
+		(pts
+			(xy 256.54 111.76) (xy 248.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ebb471-2ec0-469b-8a83-79c336d1fd86")
 	)
 	(wire
 		(pts
@@ -3631,6 +3621,16 @@
 			(type default)
 		)
 		(uuid "5a745892-8cd7-4790-bf07-196586a9a4b6")
+	)
+	(wire
+		(pts
+			(xy 259.08 91.44) (xy 261.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1572b0-497e-4a55-a72f-d9c4615bb9c6")
 	)
 	(wire
 		(pts
@@ -3844,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 101.6) (xy 243.84 104.14)
+			(xy 248.92 101.6) (xy 248.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4024,6 +4024,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 111.76) (xy 241.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c079fd6-0c93-4e04-93fa-a1a4a0bd132f")
+	)
+	(wire
+		(pts
 			(xy 195.58 63.5) (xy 195.58 60.96)
 		)
 		(stroke
@@ -4174,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 91.44) (xy 251.46 93.98)
+			(xy 256.54 91.44) (xy 256.54 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4234,7 +4244,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 109.22) (xy 243.84 111.76)
+			(xy 248.92 109.22) (xy 248.92 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4314,7 +4324,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 99.06) (xy 251.46 101.6)
+			(xy 256.54 99.06) (xy 256.54 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4464,16 +4474,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 81.28) (xy 243.84 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b77a091b-755c-40cb-8196-4f7ca3d01b5b")
-	)
-	(wire
-		(pts
 			(xy 213.36 109.22) (xy 213.36 111.76)
 		)
 		(stroke
@@ -4614,13 +4614,23 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 238.76 91.44)
+			(xy 223.52 91.44) (xy 241.3 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4c4256e-1b36-4974-8b2f-b6c09af5bef6")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 236.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55aa7e8-916a-4bb0-bcde-33a8d998430a")
 	)
 	(wire
 		(pts
@@ -4764,7 +4774,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 91.44) (xy 256.54 91.44)
+			(xy 256.54 91.44) (xy 259.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5054,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 101.6) (xy 251.46 101.6)
+			(xy 248.92 101.6) (xy 256.54 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5111,16 +5121,6 @@
 			(type default)
 		)
 		(uuid "f172c91a-cf5e-482a-8e82-fd9511982b4f")
-	)
-	(wire
-		(pts
-			(xy 256.54 91.44) (xy 259.08 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f192b152-165d-45f2-a5f4-6aafde01f00c")
 	)
 	(wire
 		(pts
@@ -5353,7 +5353,7 @@
 		(uuid "92401be2-7ad3-4d3b-a2ec-b63090b8e685")
 	)
 	(label "V_{GATE}"
-		(at 243.84 101.6 90)
+		(at 248.92 101.6 90)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6089,7 +6089,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 243.84 106.68 180)
+		(at 248.92 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6097,7 +6097,7 @@
 		(dnp no)
 		(uuid "0ff8c0b5-4f98-47eb-b303-cf0f56a4b661")
 		(property "Reference" "R909"
-			(at 242.57 106.68 90)
+			(at 247.65 106.68 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6106,7 +6106,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 243.84 106.68 90)
+			(at 248.92 106.68 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6114,7 +6114,7 @@
 			)
 		)
 		(property "Footprint" "My Resistors:R_0201_Dense"
-			(at 243.84 106.68 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +6123,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 106.68 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6132,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 243.84 106.68 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6141,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 243.84 106.68 90)
+			(at 248.92 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6150,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "AC0201FR-07100KL"
-			(at 243.84 106.68 90)
+			(at 248.92 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6159,7 @@
 			)
 		)
 		(property "LCSC" "C226394"
-			(at 243.84 106.68 90)
+			(at 248.92 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6168,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-07100KL/5894217"
-			(at 243.84 106.68 90)
+			(at 248.92 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6177,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-07100KL?qs=NgbZBzc1CyEjM8v3NDhy8g%3D%3D"
-			(at 243.84 106.68 90)
+			(at 248.92 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,6 +7016,71 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 233.68 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ee2f21-652a-491f-9682-02d0e222f89b")
+		(property "Reference" "#PWR0501"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 233.68 84.455 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 233.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c7b325f-c93c-487c-96fc-3b52f7e447fb")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -8347,7 +8412,7 @@
 	)
 	(symbol
 		(lib_id "PersonalSchematicSymbolLibrary:NTLJS17D0P03P8Z")
-		(at 243.84 93.98 90)
+		(at 248.92 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8355,7 +8420,7 @@
 		(dnp no)
 		(uuid "477c1696-c783-4a05-82fc-02b61ce1b2f6")
 		(property "Reference" "Q901"
-			(at 243.84 88.9 90)
+			(at 248.92 88.9 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8364,7 +8429,7 @@
 			)
 		)
 		(property "Value" "NTLJS17D0P03P8Z"
-			(at 243.84 87.63 90)
+			(at 248.92 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +8438,7 @@
 			)
 		)
 		(property "Footprint" "My Package_Leadless:WDFN6-4_2.05x2.05mm_P0.65mm"
-			(at 241.3 88.9 0)
+			(at 246.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +8447,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ntljs17d0p03p8z-d.pdf"
-			(at 266.7 93.98 0)
+			(at 271.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +8457,7 @@
 			)
 		)
 		(property "Description" "MOSFET, -30V Single P-Channel, Power Clip22"
-			(at 264.16 93.98 0)
+			(at 269.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,16 +8467,6 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 276.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
 			(at 281.94 93.98 0)
 			(effects
 				(font
@@ -8421,8 +8476,18 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" "VDMOS"
+			(at 287.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 279.4 93.98 0)
+			(at 284.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8497,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 261.62 93.98 0)
+			(at 266.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8442,7 +8507,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "NTLJS17D0P03P8ZTAG"
-			(at 261.62 83.82 0)
+			(at 266.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8517,7 @@
 			)
 		)
 		(property "LCSC" "C604410"
-			(at 269.24 93.98 0)
+			(at 274.32 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8463,7 +8528,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/onsemi/NTLJS17D0P03P8ZTAG/10427647"
-			(at 271.78 93.98 0)
+			(at 276.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8538,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/onsemi/NTLJS17D0P03P8ZTAG?qs=XeJtXLiO41QflnqU7jm9zw%3D%3D"
-			(at 274.32 93.98 0)
+			(at 279.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +8911,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 236.22 114.3 0)
+		(at 256.54 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8854,7 +8919,7 @@
 		(dnp no)
 		(uuid "4e08b1ee-5d89-48f2-b423-c079683b7e11")
 		(property "Reference" "#PWR0915"
-			(at 236.22 120.65 0)
+			(at 256.54 120.65 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8863,7 +8928,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 236.22 117.475 0)
+			(at 256.54 117.475 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8871,7 +8936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 114.3 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +8945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 114.3 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +8954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 236.22 114.3 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +9158,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 256.54 96.52 0)
+		(at 241.3 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9102,7 +9167,7 @@
 		(dnp no)
 		(uuid "527dab00-943e-4fbc-995d-03af135087ee")
 		(property "Reference" "C916"
-			(at 256.54 95.25 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9111,7 +9176,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 256.54 97.79 0)
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9120,7 +9185,7 @@
 			)
 		)
 		(property "Footprint" "My Capacitors:C_0201_Dense"
-			(at 256.54 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,7 +9194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,7 +9203,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 256.54 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,7 +9212,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 256.54 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,7 +9221,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
-			(at 256.54 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9230,7 @@
 			)
 		)
 		(property "LCSC" "C915760"
-			(at 256.54 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +9239,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
-			(at 256.54 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +9248,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
-			(at 256.54 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,73 +10409,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 243.84 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ac34fa3-fc69-43ee-89b2-87bf7890a0fd")
-		(property "Reference" "#PWR0916"
-			(at 243.84 120.65 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 119.38 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e15fdfb-eedf-49f2-85b8-3a53bd62b468")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
-					(reference "#PWR0916")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 71.12 96.52 0)
 		(unit 1)
@@ -11009,7 +11007,7 @@
 	)
 	(symbol
 		(lib_id "PersonalSchematicSymbolLibrary:D_Zener_Small_Filled")
-		(at 251.46 96.52 270)
+		(at 256.54 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11017,7 +11015,7 @@
 		(dnp no)
 		(uuid "9127ab52-1f87-4930-a822-8502f7f39fe7")
 		(property "Reference" "D907"
-			(at 249.555 96.52 0)
+			(at 254.635 96.52 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -11026,7 +11024,7 @@
 			)
 		)
 		(property "Value" "D15V0H1U2LP-7B"
-			(at 246.38 99.06 0)
+			(at 251.46 99.06 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -11036,7 +11034,7 @@
 			)
 		)
 		(property "Footprint" "Personal_FootprintLibrary:DFN1006-2"
-			(at 251.46 96.52 90)
+			(at 256.54 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11045,7 +11043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 96.52 90)
+			(at 256.54 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,7 +11052,7 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol, filled shape"
-			(at 251.46 96.52 0)
+			(at 256.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,7 +11061,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 251.46 96.52 90)
+			(at 256.54 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11072,7 +11070,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "D15V0H1U2LP-7B"
-			(at 251.46 96.52 90)
+			(at 256.54 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,7 +11079,7 @@
 			)
 		)
 		(property "LCSC" "C1973850"
-			(at 251.46 96.52 90)
+			(at 256.54 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,7 +11088,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/diodes-incorporated/D15V0H1U2LP-7B/9089765"
-			(at 251.46 96.52 90)
+			(at 256.54 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,7 +11097,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/D15V0H1U2LP-7B?qs=y6ZabgHbY%252ByqgwdrQEA6wA%3D%3D"
-			(at 251.46 96.52 90)
+			(at 256.54 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)

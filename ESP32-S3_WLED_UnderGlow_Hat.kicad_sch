@@ -840,22 +840,10 @@
 		(uuid "12d905cf-494f-4116-af38-5441bc0f6d06")
 	)
 	(junction
-		(at 198.12 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a19e3e9-e3e0-4ddb-98d6-239ce6d26b64")
-	)
-	(junction
 		(at 208.28 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "701747e2-798f-4787-8c9b-99bc2aae9818")
-	)
-	(junction
-		(at 203.2 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2d4b612-f1ca-4b78-a428-f1a5e95bfcd4")
 	)
 	(no_connect
 		(at 119.38 91.44)
@@ -1007,16 +995,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 68.58) (xy 203.2 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f74d920-9494-4e55-8762-6b5f216eec56")
-	)
-	(wire
-		(pts
 			(xy 180.34 78.74) (xy 203.2 78.74)
 		)
 		(stroke
@@ -1037,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 71.12) (xy 198.12 76.2)
+			(xy 198.12 68.58) (xy 198.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 71.12) (xy 203.2 78.74)
+			(xy 203.2 68.58) (xy 203.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1144,16 +1122,6 @@
 			(type default)
 		)
 		(uuid "b45d9f64-75e8-4fa9-88dc-4e0a14ccb161")
-	)
-	(wire
-		(pts
-			(xy 198.12 68.58) (xy 198.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b93b9eec-4467-4fc8-b7d5-2668c3510ed6")
 	)
 	(wire
 		(pts
@@ -1247,73 +1215,6 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 203.2 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "663bd551-fcf0-4ded-80bd-d9c7f9b1b5d0")
-		(property "Reference" "#FLG01"
-			(at 203.2 69.215 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_{FUSED}"
-			(at 203.2 66.04 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 203.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da69289d-47e7-4b41-9f8b-c6f75d68e98b")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1513,73 +1414,6 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 198.12 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f02148f-5a86-4980-9478-9f4b2553f002")
-		(property "Reference" "#FLG0103"
-			(at 198.12 69.215 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 198.12 66.04 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 198.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3aa584c6-b2bf-4d7c-8a56-043da34cb2ab")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157"
-					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
