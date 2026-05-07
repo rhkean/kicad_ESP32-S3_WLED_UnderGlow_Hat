@@ -291,11 +291,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "four_way_junction|2235200|863600|3ad90751-d423-44c3-ba57-11a1484a2942|91e55794-03da-4fb0-903d-a87eb784cfd7|/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12||",
+        "four_way_junction|2235200|863600|3ad90751-d423-44c3-ba57-11a1484a2942|91e55794-03da-4fb0-903d-a87eb784cfd7|||",
         ""
       ],
       [
-        "four_way_junction|2235200|914400|c6575aca-989c-4047-9cb1-8221b74308d2|bd806745-f00c-4dcb-aaa6-cfa5aed53303|/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12||",
+        "four_way_junction|2235200|914400|c6575aca-989c-4047-9cb1-8221b74308d2|bd806745-f00c-4dcb-aaa6-cfa5aed53303|||",
         ""
       ],
       [
@@ -865,7 +865,7 @@
       {
         "filename": "ESP32-S3_WLED_UnderGlow_Hat.kicad_sch",
         "name": "ESP32-S3_WLED_UnderGlow_Hat",
-        "uuid": "67f7b1e1-e87f-421a-8424-bb26889ab157"
+        "uuid": "a0df6d19-b1d5-4373-a5d2-1ea7f9c22c8b"
       }
     ],
     "used_designators": "",
@@ -873,7 +873,7 @@
   },
   "sheets": [
     [
-      "67f7b1e1-e87f-421a-8424-bb26889ab157",
+      "a0df6d19-b1d5-4373-a5d2-1ea7f9c22c8b",
       "Root"
     ],
     [
