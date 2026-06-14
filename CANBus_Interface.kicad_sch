@@ -985,6 +985,201 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "My Power Management:+V (Local)"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "+V?"
+				(at 1.27 2.5401 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "+V"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+V (Local)_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+V (Local)_1_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "My Power Management:GND (Local)"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "GND1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND (Local)_0_0"
+				(pin power_in line
+					(at 0 0 270)
+					(length 1.27)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GND (Local)_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PersonalSchematicSymbolLibrary:Choke_CommonMode_TDK_ACM0805"
 			(pin_names
 				(hide yes)
@@ -1993,232 +2188,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -2333,7 +2302,7 @@
 		(uuid "9c297ad3-bf01-47d5-9c66-abe9c36cf7ca")
 	)
 	(junction
-		(at 38.1 99.06)
+		(at 208.28 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0900da75-bc25-4332-b03d-8027d447678c")
@@ -2531,6 +2500,12 @@
 		(uuid "b0e5fb33-262e-4f90-98dc-81e57ea1fbe9")
 	)
 	(junction
+		(at 198.12 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d11e4154-90d0-4125-966a-ca5cf2013f60")
+	)
+	(junction
 		(at 157.48 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2547,12 +2522,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb4f5a9f-3283-46b9-8af7-4a883421a313")
-	)
-	(junction
-		(at 27.94 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecf90f4b-266a-4003-bf29-8fdc3060d85a")
 	)
 	(junction
 		(at 134.62 71.12)
@@ -2626,6 +2595,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 124.46) (xy 233.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f716949-f878-4257-b46a-7d40202a9627")
+	)
+	(wire
+		(pts
 			(xy 180.34 68.58) (xy 180.34 71.12)
 		)
 		(stroke
@@ -2636,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 106.68) (xy 38.1 109.22)
+			(xy 208.28 137.16) (xy 208.28 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2683,6 +2662,16 @@
 			(type default)
 		)
 		(uuid "1a433dad-e60f-4d50-b874-21a4e945af83")
+	)
+	(wire
+		(pts
+			(xy 243.84 127) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca55b70-e890-4234-9982-5d34b84e0dee")
 	)
 	(wire
 		(pts
@@ -2896,7 +2885,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 96.52) (xy 38.1 99.06)
+			(xy 208.28 127) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 132.08 106.68)
+			(xy 137.16 106.68) (xy 134.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3196,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 86.36) (xy 27.94 88.9)
+			(xy 198.12 116.84) (xy 198.12 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 99.06) (xy 38.1 99.06)
+			(xy 198.12 129.54) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3435,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 93.98) (xy 27.94 99.06)
+			(xy 198.12 124.46) (xy 198.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 119.38) (xy 147.32 119.38)
+			(xy 134.62 119.38) (xy 147.32 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3876,7 +3865,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 99.06) (xy 38.1 101.6)
+			(xy 238.76 124.46) (xy 238.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "face6375-d5d4-47dc-a66e-6006aa2596aa")
+	)
+	(wire
+		(pts
+			(xy 208.28 129.54) (xy 208.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3906,7 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 132.08 119.38)
+			(xy 134.62 106.68) (xy 134.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3944,6 +3943,16 @@
 		)
 		(uuid "ff675c78-1d2e-4723-a135-b8faa1a45b86")
 	)
+	(label "GND"
+		(at 114.3 132.08 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aa68b64-37ae-4817-80a6-2071e12b306b")
+	)
 	(label "FLTR"
 		(at 157.48 111.76 0)
 		(effects
@@ -3953,6 +3962,46 @@
 			(justify left bottom)
 		)
 		(uuid "1edaac84-9794-4211-845f-91fb528401f4")
+	)
+	(label "GND"
+		(at 175.26 124.46 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c055ca1-3787-4439-b096-c71a1b5e619d")
+	)
+	(label "GND"
+		(at 182.88 101.6 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "30b56a1e-7b03-42ba-a268-37187f0ac465")
+	)
+	(label "GND"
+		(at 167.64 73.66 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "34bcaf15-cc81-4b9c-8d3d-4802e1171d15")
+	)
+	(label "+3V3"
+		(at 114.3 106.68 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "42ebdf92-44bb-4fb1-9608-4245c5b303f1")
 	)
 	(label "CAN_P"
 		(at 172.72 83.82 0)
@@ -3964,6 +4013,46 @@
 		)
 		(uuid "47afe6f1-b616-4852-8d62-df667b320566")
 	)
+	(label "+V_{BAT}"
+		(at 238.76 124.46 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "553554da-17fc-4b67-a85c-2a18b08c8cbd")
+	)
+	(label "+3V3"
+		(at 114.3 55.88 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "64877284-d3a8-4796-b02b-92355bd12f60")
+	)
+	(label "GND"
+		(at 180.34 124.46 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c0d19e8-b370-4daa-b5e7-5be4bc14fe71")
+	)
+	(label "+V_{SUP}"
+		(at 175.26 55.88 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "773069a7-98fb-4891-90d5-032feba3a426")
+	)
 	(label "RST"
 		(at 137.16 111.76 180)
 		(effects
@@ -3974,6 +4063,26 @@
 		)
 		(uuid "81d1536b-19ca-40ec-807b-03571579d612")
 	)
+	(label "+V_{SUP}"
+		(at 198.12 116.84 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "859475de-9e96-4da2-9d43-24056cc56e95")
+	)
+	(label "GND"
+		(at 175.26 73.66 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "8af0df9f-bef5-4daf-818c-22d5ad9ac929")
+	)
 	(label "CAN_F_N"
 		(at 157.48 88.9 0)
 		(effects
@@ -3983,6 +4092,16 @@
 			(justify left bottom)
 		)
 		(uuid "8b6520a2-55f1-429f-87b6-74d16fe239e3")
+	)
+	(label "GND"
+		(at 134.62 73.66 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "90fbb039-c616-4eaf-8f8a-22e7b96b6b25")
 	)
 	(label "GPO2"
 		(at 137.16 99.06 180)
@@ -4004,6 +4123,26 @@
 		)
 		(uuid "98537a1f-c50c-4cb1-8e7e-e19cccd1c16f")
 	)
+	(label "GND"
+		(at 208.28 139.7 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f7475ff-e33a-41be-8761-eebda694a9c5")
+	)
+	(label "+V_{BAT}"
+		(at 208.28 127 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8ce153a-5ebe-4588-85b9-b082185687d8")
+	)
 	(label "CAN_N"
 		(at 172.72 88.9 0)
 		(effects
@@ -4024,6 +4163,16 @@
 		)
 		(uuid "b1f63a7e-a8b8-480c-a295-8182d367dd2f")
 	)
+	(label "+3V3"
+		(at 109.22 139.7 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc7e2a35-dff4-49dd-aa96-03429cbb111d")
+	)
 	(label "V_{CC_{OUT}}"
 		(at 152.4 71.12 90)
 		(effects
@@ -4033,6 +4182,16 @@
 			(justify left bottom)
 		)
 		(uuid "bcb50e2a-ce47-4a13-8005-fe22838b4c17")
+	)
+	(label "+3V3"
+		(at 233.68 124.46 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3227f98-97f6-4adc-ba4d-3304876aa461")
 	)
 	(label "CAN_F_P"
 		(at 157.48 83.82 0)
@@ -4044,6 +4203,26 @@
 		)
 		(uuid "d11628cd-38aa-4a56-b4d3-716f658acdcd")
 	)
+	(label "GND"
+		(at 147.32 124.46 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc4a5040-d7f7-4df7-b96b-269ed3b287c3")
+	)
+	(label "+3V3"
+		(at 129.54 55.88 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8fb2c04-5b0e-4f7d-b8cc-a126a3acd35a")
+	)
 	(label "OSC1"
 		(at 137.16 104.14 180)
 		(effects
@@ -4053,6 +4232,37 @@
 			(justify right bottom)
 		)
 		(uuid "e92abd31-fbbc-47d0-a788-d3aa28ebf8ec")
+	)
+	(label "GND"
+		(at 109.22 160.02 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebdbe530-dcd7-483f-94db-cd3a8e91c845")
+	)
+	(label "GND"
+		(at 243.84 132.08 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "f502317d-75a1-44de-b114-09c7c8f2b909")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 243.84 127 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "013f997d-f241-4a2e-9410-62b83bbde568")
 	)
 	(hierarchical_label "SDI"
 		(shape input)
@@ -4119,6 +4329,28 @@
 			(justify right)
 		)
 		(uuid "893386c9-fd05-4d9f-b3e0-663d6c19d52d")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 233.68 129.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9829169-a559-4ee3-87fa-70e7ee051ff3")
+	)
+	(hierarchical_label "+V_{BAT}"
+		(shape input)
+		(at 238.76 129.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca5cdc06-b16d-4bcd-a40f-c600365da749")
 	)
 	(hierarchical_label "WD Trigger"
 		(shape input)
@@ -4276,38 +4508,44 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C705")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 160.02 0)
+		(lib_id "My Power Management:+V (Local)")
+		(at 233.68 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cb6fc83-3ce1-46d1-bb7b-f3619fd55acf")
-		(property "Reference" "#PWR0719"
-			(at 109.22 166.37 0)
+		(uuid "09297015-a6c5-42ad-8d81-cb4e41d84ba4")
+		(property "Reference" "+V16"
+			(at 234.95 121.9199 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 165.1 0)
+		(property "Value" "+3V3"
+			(at 233.68 121.285 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 160.02 0)
+			(at 233.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 160.02 0)
+			(at 233.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,8 +4562,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 160.02 0)
+		(property "Description" ""
+			(at 233.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,12 +4572,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "03d535e7-3748-4c11-b03f-3b703461112a")
+			(uuid "723c35fd-66d0-48cd-b38b-22521250f5c1")
 		)
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0719")
+					(reference "+V16")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V706")
 					(unit 1)
 				)
 			)
@@ -4460,6 +4704,12 @@
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "D702")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "D702")
 					(unit 1)
 				)
@@ -4639,70 +4889,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15096e50-89aa-436b-a75a-b22a64cf5b71")
-		(property "Reference" "#PWR0713"
-			(at 114.3 138.43 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 137.16 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94b8450d-47da-4a5e-8b73-41bf01926fc8")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0713")
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -4710,7 +4899,7 @@
 	)
 	(symbol
 		(lib_id "PersonalSchematicSymbolLibrary:D_Zener_Small_Filled")
-		(at 38.1 104.14 270)
+		(at 208.28 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4718,7 +4907,7 @@
 		(dnp no)
 		(uuid "15c049b3-05ff-48b0-b74b-e9282935182a")
 		(property "Reference" "D704"
-			(at 36.195 104.14 0)
+			(at 206.375 134.62 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -4727,7 +4916,7 @@
 			)
 		)
 		(property "Value" "D15V0H1U2LP-7B"
-			(at 33.02 106.68 0)
+			(at 203.2 137.16 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -4737,7 +4926,7 @@
 			)
 		)
 		(property "Footprint" "Personal_FootprintLibrary:DFN1006-2"
-			(at 38.1 104.14 90)
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +4935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 104.14 90)
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4944,7 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol, filled shape"
-			(at 38.1 104.14 0)
+			(at 208.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4953,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 38.1 104.14 90)
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4962,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "D15V0H1U2LP-7B"
-			(at 38.1 104.14 90)
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +4971,7 @@
 			)
 		)
 		(property "LCSC" "C1973850"
-			(at 38.1 104.14 90)
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4980,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/diodes-incorporated/D15V0H1U2LP-7B/9089765"
-			(at 38.1 104.14 90)
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4989,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/D15V0H1U2LP-7B?qs=y6ZabgHbY%252ByqgwdrQEA6wA%3D%3D"
-			(at 38.1 104.14 90)
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,103 +5010,44 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c58c4ac-d904-42f0-aa97-be842f3e9013")
-		(property "Reference" "#PWR0711"
-			(at 175.26 130.81 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 129.54 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f3da52a-d5bd-47b7-8aac-e8378537da16")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0711")
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "D704")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 109.22 139.7 0)
+		(lib_id "My Power Management:GND (Local)")
+		(at 109.22 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "2d9e7a77-dd78-440a-8a0c-9082f549e1c9")
-		(property "Reference" "#PWR0716"
-			(at 109.22 143.51 0)
+		(fields_autoplaced yes)
+		(uuid "17a0f650-39ef-40e3-a272-f4ff552bdb7e")
+		(property "Reference" "GND17"
+			(at 109.22 160.02 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 109.22 135.89 0)
+		(property "Value" "GND"
+			(at 109.22 160.02 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 139.7 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +5056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 139.7 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,8 +5064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 109.22 139.7 0)
+		(property "Description" ""
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,12 +5074,237 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6997707-e815-437e-bfca-8b237545a1bf")
+			(uuid "1da07c4c-a7f2-4951-ae88-6269c534b27a")
 		)
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0716")
+					(reference "GND17")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND711")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 208.28 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "236acc48-6900-4498-abce-1d0b9cdf2730")
+		(property "Reference" "GND16"
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abdcb3f5-b5e5-4a3b-b836-228b1815a253")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND16")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND710")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 175.26 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "275b7d01-91bc-439d-b365-ae90b55de1d6")
+		(property "Reference" "GND9"
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "949524fb-7168-4673-8e2b-68c2f8f19dfe")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND9")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:+V (Local)")
+		(at 129.54 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "27ae45a0-3719-48e1-a18a-002ea0328725")
+		(property "Reference" "+V12"
+			(at 130.81 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 129.54 52.705 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "640afc3a-7fea-487d-abee-c4f7330ee2d1")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V12")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V702")
 					(unit 1)
 				)
 			)
@@ -5063,6 +5418,12 @@
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C713")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "C713")
 					(unit 1)
 				)
@@ -5181,70 +5542,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "319c45f5-d1ab-45c7-a088-be455c82778f")
-		(property "Reference" "#PWR0709"
-			(at 38.1 115.57 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 114.3 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cfb9ee6-f304-4efb-a3ba-0ab09b949ea1")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0709")
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -5365,6 +5665,12 @@
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "D703")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "D703")
 					(unit 1)
 				)
@@ -5497,70 +5803,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e6a42bd-9a8a-4367-bfbb-9593f0f4f3da")
-		(property "Reference" "#PWR0706"
-			(at 175.26 80.01 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92c503d6-64fc-4ac5-8634-11b0e22dcb4a")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0706")
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "CMC701")
 					(unit 1)
 				)
 			)
@@ -5673,6 +5918,12 @@
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "R703")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "R703")
 					(unit 1)
 				)
@@ -5800,6 +6051,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "U702")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5913,68 +6170,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45d3e80c-6971-43a8-9715-96bcfa0ac0e5")
-		(property "Reference" "#PWR0714"
-			(at 114.3 110.49 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 114.3 102.87 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d708bc2-e74b-4e05-baef-0d02ac0e81f3")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0714")
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "R702")
 					(unit 1)
 				)
 			)
@@ -6092,36 +6290,44 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C714")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 55.88 0)
+		(lib_id "My Power Management:GND (Local)")
+		(at 114.3 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "553e5672-9657-448b-9a6d-6b3ace5cc2ff")
-		(property "Reference" "#PWR0701"
-			(at 114.3 59.69 0)
+		(fields_autoplaced yes)
+		(uuid "51a745b2-297d-4f84-ab04-4656b2ecde3a")
+		(property "Reference" "GND14"
+			(at 114.3 132.08 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 114.3 52.07 0)
+		(property "Value" "GND"
+			(at 114.3 132.08 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 55.88 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +6336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 55.88 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,8 +6344,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 55.88 0)
+		(property "Description" ""
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,12 +6354,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "c22121c3-b0e8-442e-930b-bf64745bad26")
+			(uuid "18b93daa-a77b-4013-8cdb-88a4295967e6")
 		)
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0701")
+					(reference "GND14")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND708")
 					(unit 1)
 				)
 			)
@@ -6271,11 +6483,236 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C709")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:+V (Local)")
+		(at 114.3 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "55bde561-ab92-468e-90e8-92938ec8cef3")
+		(property "Reference" "+V14"
+			(at 115.57 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 114.3 103.505 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cffacad-817d-4963-a56b-532505894e8a")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V14")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 243.84 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b082829-010d-439c-a102-446868dc6beb")
+		(property "Reference" "GND15"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed83c186-9cbd-455c-8953-2a25990e1c7c")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND15")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND709")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:+V (Local)")
+		(at 198.12 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "5e162fd3-7364-46b5-8357-c10f03f1f11d")
+		(property "Reference" "+V15"
+			(at 199.39 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_{SUP}"
+			(at 198.12 113.665 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2351aff1-82de-41c8-ab0f-a04c2dad980a")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V15")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V705")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "PersonalSchematicSymbolLibrary:D_Schottky_Small_Filled")
-		(at 27.94 91.44 270)
+		(at 198.12 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6283,7 +6720,7 @@
 		(dnp no)
 		(uuid "63cb748f-03bf-44b5-beac-a80b6c9e2b24")
 		(property "Reference" "D701"
-			(at 26.035 91.44 0)
+			(at 196.215 121.92 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6292,7 +6729,7 @@
 			)
 		)
 		(property "Value" "PMEG4002ESFYL"
-			(at 22.86 93.98 0)
+			(at 193.04 124.46 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6301,8 +6738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
-			(at 27.94 91.44 90)
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
+			(at 198.12 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 91.44 90)
+			(at 198.12 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6757,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol, filled shape"
-			(at 27.94 91.44 0)
+			(at 198.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6766,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia USA Inc."
-			(at 27.94 91.44 90)
+			(at 198.12 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6775,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "PMEG4002ESFYL"
-			(at 27.94 91.44 90)
+			(at 198.12 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6784,7 @@
 			)
 		)
 		(property "LCSC" "C22435168"
-			(at 27.94 91.44 90)
+			(at 198.12 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6793,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG4002ESFYL/5395786"
-			(at 27.94 91.44 90)
+			(at 198.12 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6802,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Nexperia/PMEG4002ESFYL?qs=Yna0arPQ0CSta5CQy4fS5A%3D%3D"
-			(at 27.94 91.44 90)
+			(at 198.12 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,6 +6820,158 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "D701")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "D701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 198.12 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ddb6d7-275f-4b75-9895-a413b81f2998")
+		(property "Reference" "#FLG0105"
+			(at 198.12 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9708948e-1a46-4d08-87b1-99ba00c33bd8")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "#FLG0105")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "#FLG0701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 147.32 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d94fa8-3e97-4d9e-a70e-7ff27c133784")
+		(property "Reference" "GND11"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8101389-09a8-4e45-9b8f-3b0175a99507")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND11")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND705")
 					(unit 1)
 				)
 			)
@@ -6496,6 +7085,12 @@
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C717")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "C717")
 					(unit 1)
 				)
@@ -6614,6 +7209,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C710")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6724,6 +7325,12 @@
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C703")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "C703")
 					(unit 1)
 				)
@@ -6842,32 +7449,113 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C711")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "My Power Management:GND (Local)")
+		(at 175.26 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d2a4d4a-7127-4760-b066-d651903a7da0")
+		(property "Reference" "GND12"
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b23a77d3-b31d-4f46-aa9c-378d8eb5cddc")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND12")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:+V (Local)")
 		(at 175.26 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "9da84cd3-5c43-4a4b-b86a-ece258e6436e")
-		(property "Reference" "#PWR0703"
-			(at 175.26 59.69 0)
+		(uuid "9eb5e9c9-2c10-443f-bfc3-1e571ed04e96")
+		(property "Reference" "+V13"
+			(at 176.53 53.3399 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "+V_{SUP}"
-			(at 175.26 52.07 0)
+			(at 175.26 52.705 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -6888,7 +7576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 175.26 55.88 0)
 			(effects
 				(font
@@ -6898,29 +7586,35 @@
 			)
 		)
 		(pin "1"
-			(uuid "e26ec4f9-f39a-48eb-b98d-7aae56f6a7db")
+			(uuid "9dff1644-0123-4299-a3db-ee3c00fd1cb3")
 		)
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0703")
+					(reference "+V13")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V703")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 27.94 86.36 0)
+		(lib_id "My Power Management:GND (Local)")
+		(at 182.88 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9fa9bd9b-7fa6-45ba-b525-d181f077a981")
-		(property "Reference" "#FLG0703"
-			(at 27.94 84.455 0)
+		(uuid "a4928213-527d-4ba6-82a8-737ad76b0ec8")
+		(property "Reference" "GND10"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,8 +7622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 27.94 81.28 0)
+		(property "Value" "GND"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,72 +7632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c2d8183-4926-4bef-833b-2105a94705b0")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#FLG0703")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 38.1 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2fa2452-de36-4724-9fa2-e48b732f2499")
-		(property "Reference" "#PWR0720"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+V_{BAT}"
-			(at 38.1 92.71 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 96.52 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7012,7 +7641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 96.52 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,8 +7649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 38.1 96.52 0)
+		(property "Description" ""
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,12 +7659,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "daf32902-1b75-494f-bf17-0956b7899f58")
+			(uuid "21ea1dc3-4858-41d0-bdaf-0307c0da46d7")
 		)
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0720")
+					(reference "GND10")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND704")
 					(unit 1)
 				)
 			)
@@ -7153,38 +7788,44 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C702")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 101.6 0)
+		(lib_id "My Power Management:+V (Local)")
+		(at 114.3 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a931724f-73ad-498a-a5ba-3039b3c0b143")
-		(property "Reference" "#PWR0708"
-			(at 182.88 107.95 0)
+		(uuid "b79dbbd0-5d63-49a3-860f-754f0b9e9e2d")
+		(property "Reference" "+V11"
+			(at 115.57 53.3399 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 182.88 106.68 0)
+		(property "Value" "+3V3"
+			(at 114.3 52.705 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 101.6 0)
+			(at 114.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 101.6 0)
+			(at 114.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,8 +7842,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 101.6 0)
+		(property "Description" ""
+			(at 114.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,12 +7852,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "76a18ce5-0160-4f08-a992-03b1b8620799")
+			(uuid "ea0a4b7d-32e5-455f-8162-f5a9e2ba5c00")
 		)
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0708")
+					(reference "+V11")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V701")
 					(unit 1)
 				)
 			)
@@ -7334,6 +7981,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C715")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7447,36 +8100,44 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "R704")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 27.94 86.36 0)
+		(lib_id "My Power Management:GND (Local)")
+		(at 180.34 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "c2044b2f-9eba-4cf8-8356-ae4c35ffa411")
-		(property "Reference" "#PWR0707"
-			(at 27.94 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "c09a2969-06c8-47a2-aab6-2e6aa6ef2f98")
+		(property "Reference" "GND13"
+			(at 180.34 124.46 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+V_{SUP}"
-			(at 27.94 82.55 0)
+		(property "Value" "GND"
+			(at 180.34 124.46 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 86.36 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +8146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 86.36 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,8 +8154,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 27.94 86.36 0)
+		(property "Description" ""
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,12 +8164,164 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa8b1fbc-de2e-459d-abf6-f2101a83836b")
+			(uuid "964c7085-7daf-4af2-9f27-a331591b67bc")
 		)
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0707")
+					(reference "GND13")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:+V (Local)")
+		(at 208.28 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "cbb425ec-c9bc-4d7e-bebe-80fd58940448")
+		(property "Reference" "+V18"
+			(at 209.55 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_{BAT}"
+			(at 208.28 123.825 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a92e7ce0-1261-44db-a32f-7bb843132eee")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V18")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 167.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd07be8-c0a1-41d3-a999-e589a9991eac")
+		(property "Reference" "GND8"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11260ff8-2774-4d6f-b749-916ee74978bf")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND8")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND702")
 					(unit 1)
 				)
 			)
@@ -7626,38 +8439,44 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C704")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 180.34 124.46 0)
+		(lib_id "My Power Management:GND (Local)")
+		(at 134.62 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d88aed0b-19f1-4079-8d60-2175cebdbc39")
-		(property "Reference" "#PWR0712"
-			(at 180.34 130.81 0)
+		(uuid "d9522d44-79f9-4b2d-9816-d68843e77594")
+		(property "Reference" "GND7"
+			(at 134.62 73.66 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 129.54 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 124.46 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,7 +8485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 124.46 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,8 +8493,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 124.46 0)
+		(property "Description" ""
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,12 +8503,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "dea57638-7d54-4966-bdae-8d064763e851")
+			(uuid "29c23c32-175f-444c-82ce-edabf6b1ec18")
 		)
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0712")
+					(reference "GND7")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "GND701")
 					(unit 1)
 				)
 			)
@@ -7806,68 +8631,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 129.54 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfc111a6-0bd1-43e3-a42f-283dcf39514c")
-		(property "Reference" "#PWR0702"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 129.54 52.07 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 129.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75195779-c39a-453b-a086-bbc3e57e0107")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0702")
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -7985,137 +8751,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e459745c-063e-4f9b-bab6-15ba50b5ab64")
-		(property "Reference" "#PWR0705"
-			(at 167.64 80.01 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 78.74 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f15ab83-3238-40cd-b879-506a4f45df51")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0705")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e48ed800-ddde-46c6-b4df-e30050bb85f9")
-		(property "Reference" "#PWR0710"
-			(at 147.32 130.81 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 129.54 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "548b69e9-880f-4b2c-b22e-934da9774892")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0710")
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C706")
 					(unit 1)
 				)
 			)
@@ -8230,6 +8868,158 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "C708")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:+V (Local)")
+		(at 238.76 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "e859bc13-5abc-45c3-a076-6fcb46285695")
+		(property "Reference" "+V17"
+			(at 240.03 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_{BAT}"
+			(at 238.76 121.285 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31c11537-d5fb-469d-9839-b64459dca825")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V17")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:+V (Local)")
+		(at 109.22 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ea0024e1-53b6-49a4-92e7-f9ebe415f0d7")
+		(property "Reference" "+V19"
+			(at 110.49 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 109.22 136.525 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cef9469a-8ca8-4c55-94d9-fee55f111ed7")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V19")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "+V709")
 					(unit 1)
 				)
 			)
@@ -8353,6 +9143,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "Y701")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8467,70 +9263,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f48e8fa3-57f2-447a-aa54-3d29817a3a11")
-		(property "Reference" "#PWR0704"
-			(at 134.62 80.01 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 78.74 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2740668c-b844-46e5-9542-b3ebe7ae0012")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
-					(reference "#PWR0704")
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C716")
 					(unit 1)
 				)
 			)
@@ -8644,6 +9379,12 @@
 		(instances
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/540fc2fe-cab2-4369-b83c-552d75db3d4a"
+					(reference "C707")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/540fc2fe-cab2-4369-b83c-552d75db3d4a"
 					(reference "C707")
 					(unit 1)
 				)

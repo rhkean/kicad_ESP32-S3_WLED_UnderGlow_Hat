@@ -839,12 +839,6 @@
 		(color 0 0 0 0)
 		(uuid "12d905cf-494f-4116-af38-5441bc0f6d06")
 	)
-	(junction
-		(at 208.28 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "701747e2-798f-4787-8c9b-99bc2aae9818")
-	)
 	(no_connect
 		(at 119.38 91.44)
 		(uuid "01d68984-5e24-401f-bce8-7c49d9954c5e")
@@ -856,10 +850,6 @@
 	(no_connect
 		(at 137.16 91.44)
 		(uuid "222d2221-fc04-4313-a3e5-6fa9d54f9406")
-	)
-	(no_connect
-		(at 81.28 101.6)
-		(uuid "2ac79928-8b67-4a37-9a10-7fe0e9bfea49")
 	)
 	(no_connect
 		(at 114.3 91.44)
@@ -880,10 +870,6 @@
 	(no_connect
 		(at 81.28 96.52)
 		(uuid "626d6bfb-c700-4261-9f74-a452786e2df2")
-	)
-	(no_connect
-		(at 81.28 106.68)
-		(uuid "6b38b3fb-379d-4d4e-8f6d-c526d7aff3f7")
 	)
 	(no_connect
 		(at 129.54 91.44)
@@ -908,10 +894,6 @@
 	(no_connect
 		(at 167.64 91.44)
 		(uuid "8ac0ad63-ac4f-4203-8170-568a038d3d24")
-	)
-	(no_connect
-		(at 162.56 91.44)
-		(uuid "9486db40-a5d2-4d96-b8cb-341bc585e792")
 	)
 	(no_connect
 		(at 127 91.44)
@@ -946,10 +928,6 @@
 		(uuid "e214b997-d760-4a36-9f84-85f0322982d8")
 	)
 	(no_connect
-		(at 160.02 91.44)
-		(uuid "e2474046-0a67-415e-9aa6-74b62976ddfc")
-	)
-	(no_connect
 		(at 157.48 91.44)
 		(uuid "e55a6b74-8036-453d-bef3-34494f7fb2fb")
 	)
@@ -968,20 +946,6 @@
 	(no_connect
 		(at 134.62 91.44)
 		(uuid "fdf7fb67-9a5f-44d9-ae24-e1f17603e607")
-	)
-	(no_connect
-		(at 81.28 109.22)
-		(uuid "fe762474-2a14-402a-b0af-85d4b2f923ed")
-	)
-	(wire
-		(pts
-			(xy 208.28 71.12) (xy 208.28 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061abbc8-07b0-4264-ba48-47419fe78d5d")
 	)
 	(wire
 		(pts
@@ -1005,16 +969,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 182.88 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e194c4-473f-4f5d-a2e8-dd12921bcd46")
-	)
-	(wire
-		(pts
 			(xy 198.12 68.58) (xy 198.12 76.2)
 		)
 		(stroke
@@ -1022,16 +976,6 @@
 			(type default)
 		)
 		(uuid "4504a37b-443c-489a-a547-da063596d116")
-	)
-	(wire
-		(pts
-			(xy 208.28 68.58) (xy 208.28 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57f58b8c-46e9-49d8-a72c-f68164d5f8e6")
 	)
 	(wire
 		(pts
@@ -1125,16 +1069,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 81.28) (xy 182.88 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df8080e0-e0e0-47a1-a3ea-1be2fadcf1ec")
-	)
-	(wire
-		(pts
 			(xy 203.2 93.98) (xy 203.2 91.44)
 		)
 		(stroke
@@ -1215,73 +1149,6 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 208.28 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69077b74-d5c7-4fdf-b2fd-2bff7c7d23a9")
-		(property "Reference" "#FLG0104"
-			(at 208.28 69.215 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_{EXT}"
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 208.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fe384cc-4d5a-45cc-b97e-dae3a1e7ae26")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157"
-					(reference "#FLG0104")
 					(unit 1)
 				)
 			)
@@ -1618,71 +1485,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 208.28 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9f0d451-e7a5-42f2-a47a-3577da33b5cc")
-		(property "Reference" "#PWR0104"
-			(at 208.28 72.39 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_{EXT}"
-			(at 208.28 64.77 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 208.28 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b6583bd-f6f4-4c5a-931d-0040dfe7678c")
-		)
-		(instances
-			(project "ESP32-S3_WLED_UnderGlow_Hat"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 81.28 91.44)
 		(size 106.68 30.48)
@@ -1747,39 +1549,9 @@
 				(justify left)
 			)
 		)
-		(pin "IO00" bidirectional
-			(at 81.28 109.22 180)
-			(uuid "8a18fef6-dce4-41d6-ba4f-158b0f50b3b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO01" bidirectional
-			(at 81.28 106.68 180)
-			(uuid "cb9ad5ec-23bc-4604-8db2-3364b2b635fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "WD" bidirectional
 			(at 81.28 104.14 180)
 			(uuid "53a1850a-79a6-4280-a536-044ea5819d0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO03" bidirectional
-			(at 81.28 101.6 180)
-			(uuid "68a80b04-d03c-46e4-9b56-21f946f2033e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,26 +1789,6 @@
 				(justify right)
 			)
 		)
-		(pin "IO45" bidirectional
-			(at 160.02 91.44 90)
-			(uuid "3c4829f4-642d-4d89-8203-5fdbfd17c8a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IO46" bidirectional
-			(at 162.56 91.44 90)
-			(uuid "c0be0241-71cb-498f-99cf-144b9e98e105")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I^{2}S_{SCK}" bidirectional
 			(at 165.1 91.44 90)
 			(uuid "11548f9d-70ef-416b-8e45-4aa41a962746")
@@ -2070,16 +1822,6 @@
 		(pin "RLY-" bidirectional
 			(at 175.26 91.44 90)
 			(uuid "4cb934f7-12ad-4d09-8d5e-fd635e30b00d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+5V_{EXT}" bidirectional
-			(at 182.88 91.44 90)
-			(uuid "7bafb5fc-7a3f-46ad-bead-27cd01d575f8")
 			(effects
 				(font
 					(size 1.27 1.27)

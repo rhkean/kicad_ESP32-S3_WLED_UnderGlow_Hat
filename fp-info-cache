@@ -1,4 +1,4 @@
-25771407734774064
+25789341952501009
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70796,7 +70796,7 @@ JST_NSHD_SM32B-NSHD_2x16_P1.0mm_Horizontal_SMD
 
 0
 34
-33
+34
 My Connectors
 JST_NSH_SM04B-NSH_1x04_P1.0mm_Horizontal_SMD
 SM04B-NSHSS-TB(LF)(SN)-2
@@ -70882,6 +70882,13 @@ Connector
 18
 18
 My Connectors
+Molex_PicoBlade_53261-0671_1x06_P1.25mm_Horizontal_SMD
+
+53261-0671 
+0
+8
+7
+My Connectors
 PinHeader_2x10_P2.54mm_Vertical_SMD_LowProfile
 
 
@@ -70924,6 +70931,27 @@ Samtec_T2M_T2M-106-01-x-D-TH-WT_2x06_P2.54mm_Vertical_THT_WeldTab
 14
 14
 My Package_Leadless
+DFN0603-2
+DSN package size 0603 2 pins
+DSN 0603-2 pins SOD962-2
+0
+2
+2
+My Package_Leadless
+DFN1006-2
+DFN package size 1006 2 pins
+DFN 1006-2 pins SOD882
+0
+2
+2
+My Package_Leadless
+DFN1010D-3
+DFN 1.0x1.0mm SOT1215
+
+0
+4
+4
+My Package_Leadless
 Oscillator_SMD_Abracon_ASAAIG-4Pin_2.0x1.6mm
 Abracon Miniature Ceramic Smd Crystal ABM10 http://www.abracon.com/Resonators/ABM10.pdf
 SMD SMT crystal Abracon ABM10
@@ -70938,6 +70966,13 @@ SiTime SiT8008B, MEMS programmable oscillator, 2.0x1.6mm package, SMD, generated
 4
 4
 My Package_Leadless
+Texas_-YJN_0.7x0.6mm_PicoStar
+PicoStar YJN 0706
+LGA-3
+0
+3
+3
+My Package_Leadless
 Texas_VQFN-HR-12_3.5x3.0mm_P0.5mm_Hot-Rod
 
 
@@ -70951,6 +70986,20 @@ WDFN6-4_2.05x2.05mm_P0.65mm
 0
 4
 4
+My Package_Leadless
+WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
+WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+9
+7
+My Package_SO
+FSOP-8_3.25x1.65mm_P0.8mm
+FSOP-8_3.25x1.65mm_P0.8mm
+Integrated Circuit
+0
+8
+8
 My Package_SO
 TSSOP-14_4.4x5mm_P0.65mm
 TSSOP, 14 Pin (JEDEC MO-153 variation AB-1, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -70983,6 +71032,20 @@ My Resistors
 R_0201_Nominal
 Resistor SMD 0201 Nominal Spacing
 Resistor SMD 0201 Nominal
+0
+2
+2
+My Resistors
+R_0402_Nominal
+Resistor SMD 0402 (1005 Metric) Nominal Spacing
+Resistor SMD 0402 1005 Nominal 1006
+0
+2
+2
+My Resistors
+TH_0402_Nominal
+Thermistor SMD 0402 (1005 Metric) Nominal Spacing
+Thermistor SMD 0402 1005 Nominal 1006
 0
 2
 2
@@ -89655,6 +89718,13 @@ net tie
 0
 2
 2
+Personal_FootprintLibrary
+QLSP06RGBXWAJ
+3.0mm x 3.0mm x 1.9mm
+LED (Multiple)
+0
+9
+9
 Personal_FootprintLibrary
 SIT8XXXxx-7Y-xxx
 QFN_2016_4pins

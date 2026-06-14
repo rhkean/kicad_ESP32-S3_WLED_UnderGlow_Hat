@@ -3344,6 +3344,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 121.92) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9b6a4a-41a7-4d1a-a501-2994a556aca6")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 180.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1cc10e-c96e-4a32-b180-dc49d067764b")
+	)
+	(wire
+		(pts
 			(xy 254 91.44) (xy 256.54 91.44)
 		)
 		(stroke
@@ -4101,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "9177a29c-89b9-48c2-a710-fc0356c79ffc")
+	)
+	(wire
+		(pts
+			(xy 185.42 121.92) (xy 185.42 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92971657-bc58-441b-a7ee-a543045b3a44")
 	)
 	(wire
 		(pts
@@ -4954,6 +4984,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 121.92) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b5be05-e2a3-4dd1-8a62-a695eba17e0b")
+	)
+	(wire
+		(pts
 			(xy 241.3 71.12) (xy 243.84 71.12)
 		)
 		(stroke
@@ -5414,6 +5454,17 @@
 		)
 		(uuid "292e3e1d-5448-40a7-bf32-5c83d1ff161e")
 	)
+	(hierarchical_label "+V_{BAT}"
+		(shape passive)
+		(at 180.34 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38099184-3627-47ae-bcd9-db19b9e9028d")
+	)
 	(hierarchical_label "Data2"
 		(shape output)
 		(at 137.16 71.12 0)
@@ -5535,6 +5586,17 @@
 		)
 		(uuid "a5b863c0-debd-4a11-a359-e7412f726172")
 	)
+	(hierarchical_label "+3V3"
+		(shape passive)
+		(at 165.1 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa743047-d55b-4072-86c4-8882c797b818")
+	)
 	(hierarchical_label "SDI"
 		(shape input)
 		(at 190.5 88.9 180)
@@ -5545,6 +5607,17 @@
 			(justify right)
 		)
 		(uuid "ac6820a3-1156-420e-9abc-a2fe647bc17c")
+	)
+	(hierarchical_label "+5V_{FUSED}"
+		(shape passive)
+		(at 172.72 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b43a7932-0602-4fcc-bf3b-d6c192186fc8")
 	)
 	(hierarchical_label "LED5"
 		(shape input)
@@ -5601,6 +5674,17 @@
 		)
 		(uuid "df3bce2b-5924-450d-9e68-4addf6697869")
 	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 185.42 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2930670-765e-4890-aade-c159f61915fa")
+	)
 	(hierarchical_label "~{CS}"
 		(shape input)
 		(at 190.5 93.98 180)
@@ -5640,7 +5724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 208.28 119.38 90)
 			(effects
 				(font
@@ -5725,6 +5809,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5787,6 +5877,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0920")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5854,6 +5950,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0928")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5967,6 +6069,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "R918")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6085,6 +6193,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6198,6 +6312,78 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10cfd385-6a3f-4963-b04e-633b6f7f45d3")
+		(property "Reference" "#PWR03"
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_{BAT}"
+			(at 180.34 118.745 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79b94f2e-d672-44c2-92e6-be5181f733ed")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6265,6 +6451,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6295,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 243.84 76.2 90)
 			(effects
 				(font
@@ -6380,6 +6572,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6410,7 +6608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 238.76 71.12 90)
 			(effects
 				(font
@@ -6492,6 +6690,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "D901")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6608,6 +6812,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6638,7 +6848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 71.12 142.24 90)
 			(effects
 				(font
@@ -6720,6 +6930,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "D913")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6838,6 +7054,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6951,6 +7173,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7019,6 +7247,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7081,6 +7315,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7255,6 +7495,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7378,6 +7624,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7491,6 +7743,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7601,6 +7859,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "R915")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7727,6 +7991,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7839,6 +8109,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "D916")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7956,6 +8232,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8066,6 +8348,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "R912")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8182,6 +8470,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8295,6 +8589,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8405,6 +8705,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "R916")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8566,6 +8872,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8677,6 +8989,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "C905")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8794,6 +9112,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8907,6 +9231,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8969,6 +9299,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0915")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9087,6 +9423,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9151,6 +9493,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0910")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9269,6 +9617,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9334,6 +9688,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9396,6 +9756,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0905")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9514,6 +9880,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9577,6 +9949,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0927")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9644,6 +10022,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0929")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9758,6 +10142,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "C912")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -9884,6 +10274,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9995,6 +10391,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "C901")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10111,6 +10513,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10224,6 +10632,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10288,6 +10702,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#FLG0901")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#FLG?")
 					(unit 1)
 				)
 			)
@@ -10406,6 +10826,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10468,6 +10894,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0913")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10583,6 +11015,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "D906")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -10709,6 +11147,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10823,6 +11267,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10887,6 +11337,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0911")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11000,6 +11456,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "R902")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11118,6 +11580,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11229,6 +11697,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "C913")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11346,6 +11820,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11459,6 +11939,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11569,6 +12055,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "R905")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11687,6 +12179,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11750,6 +12248,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0907")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11863,6 +12367,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "R907")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11981,6 +12491,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12046,6 +12562,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12108,6 +12630,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0912")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12224,6 +12752,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12286,6 +12820,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0921")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12353,6 +12893,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0919")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12479,6 +13025,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12509,7 +13061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 129.54 142.24 90)
 			(effects
 				(font
@@ -12591,6 +13143,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "D914")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -12709,6 +13267,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12823,6 +13387,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12890,6 +13460,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12953,6 +13529,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0902")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13079,6 +13661,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13141,6 +13729,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0901")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13255,6 +13849,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "C911")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -13373,6 +13973,144 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9aab5ac-70bc-44ca-8a59-d7c2c030fc3e")
+		(property "Reference" "#PWR02"
+			(at 185.42 133.35 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 132.08 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a193101-830f-4297-9f3d-63cac7edbece")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cff6d47d-52a2-4bc2-b796-fa44361359ad")
+		(property "Reference" "#PWR05"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5cd4788-a72a-40b5-a7c6-193e15fdb548")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13403,7 +14141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 71.12 104.14 90)
 			(effects
 				(font
@@ -13488,6 +14226,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13518,7 +14262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 71.12 66.04 90)
 			(effects
 				(font
@@ -13603,6 +14347,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13665,6 +14415,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0914")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13735,6 +14491,77 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 172.72 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e09ddc18-ccca-492a-acc8-1f2c22105272")
+		(property "Reference" "#PWR04"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_{FUSED}"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "060f9843-6c2d-4744-9569-fc5f2f11e931")
+		)
+		(instances
+			(project "ESP32-S3_WLED_UnderGlow_Hat"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13765,7 +14592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 129.54 66.04 90)
 			(effects
 				(font
@@ -13850,6 +14677,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13914,6 +14747,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "#PWR0917")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13984,6 +14823,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14051,6 +14896,12 @@
 					(unit 1)
 				)
 			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14081,7 +14932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+		(property "Footprint" "My Package_Leadless:DFN0603-2"
 			(at 129.54 104.14 90)
 			(effects
 				(font
@@ -14163,6 +15014,12 @@
 			(project "ESP32-S3_WLED_UnderGlow_Hat"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/a04a4bdb-30b7-44d7-ac1c-f847f02e7058/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
 					(reference "D909")
+					(unit 1)
+				)
+			)
+			(project "Combined"
+				(path "/e2a05503-89d3-4ba4-a13a-47975b80c1a9/a1dada9a-cfeb-419e-967d-cc71aad72f38/8aaf86e6-b9c9-461a-bd22-c6804fd1aa12"
+					(reference "D?")
 					(unit 1)
 				)
 			)
